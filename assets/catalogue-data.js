@@ -7,7 +7,8 @@ window.RF_CATALOGUE = {
       "Navigation",
       "grid",
       "Home, overview, workspace",
-      "approved"
+      "approved",
+      "assets/icons/grid.svg"
     ],
     [
       "RF-ICO-002",
@@ -15,7 +16,8 @@ window.RF_CATALOGUE = {
       "CRM",
       "users",
       "People, customer records, contacts",
-      "approved"
+      "approved",
+      "assets/icons/users.svg"
     ],
     [
       "RF-ICO-003",
@@ -23,7 +25,8 @@ window.RF_CATALOGUE = {
       "Sales",
       "target",
       "Deals, pipeline, conversion",
-      "approved"
+      "approved",
+      "assets/icons/target.svg"
     ],
     [
       "RF-ICO-004",
@@ -31,7 +34,8 @@ window.RF_CATALOGUE = {
       "Analytics",
       "chart",
       "Reports, performance, metrics",
-      "approved"
+      "approved",
+      "assets/icons/chart.svg"
     ],
     [
       "RF-ICO-005",
@@ -39,7 +43,8 @@ window.RF_CATALOGUE = {
       "Finance",
       "wallet",
       "Billing, cash, payments",
-      "approved"
+      "approved",
+      "assets/icons/wallet.svg"
     ],
     [
       "RF-ICO-006",
@@ -47,7 +52,8 @@ window.RF_CATALOGUE = {
       "Documents",
       "file",
       "Files, contracts, records",
-      "approved"
+      "approved",
+      "assets/icons/file.svg"
     ],
     [
       "RF-ICO-007",
@@ -55,7 +61,8 @@ window.RF_CATALOGUE = {
       "AI & Intelligence",
       "brain",
       "AI core, reasoning, intelligence",
-      "approved"
+      "approved",
+      "assets/icons/brain.svg"
     ],
     [
       "RF-ICO-008",
@@ -63,7 +70,8 @@ window.RF_CATALOGUE = {
       "Notifications",
       "bell",
       "Alerts, unread, notification centre",
-      "approved"
+      "approved",
+      "assets/icons/bell.svg"
     ],
     [
       "RF-ICO-009",
@@ -71,7 +79,8 @@ window.RF_CATALOGUE = {
       "Security",
       "shield",
       "Protection, trust, security controls",
-      "approved"
+      "approved",
+      "assets/icons/shield.svg"
     ],
     [
       "RF-ICO-010",
@@ -79,7 +88,8 @@ window.RF_CATALOGUE = {
       "Security",
       "lock",
       "Restricted, private, locked",
-      "approved"
+      "approved",
+      "assets/icons/lock.svg"
     ],
     [
       "RF-ICO-011",
@@ -87,7 +97,8 @@ window.RF_CATALOGUE = {
       "Navigation",
       "search",
       "Find, lookup, search",
-      "approved"
+      "approved",
+      "assets/icons/search.svg"
     ],
     [
       "RF-ICO-012",
@@ -95,7 +106,8 @@ window.RF_CATALOGUE = {
       "Navigation",
       "settings",
       "Preferences, configuration",
-      "approved"
+      "approved",
+      "assets/icons/settings.svg"
     ],
     [
       "RF-ICO-013",
@@ -103,7 +115,8 @@ window.RF_CATALOGUE = {
       "Status",
       "check",
       "Done, confirmed, success",
-      "approved"
+      "approved",
+      "assets/icons/check.svg"
     ],
     [
       "RF-ICO-014",
@@ -111,7 +124,8 @@ window.RF_CATALOGUE = {
       "Status",
       "clock",
       "Pending, scheduled, waiting",
-      "approved"
+      "approved",
+      "assets/icons/clock.svg"
     ],
     [
       "RF-ICO-015",
@@ -119,7 +133,8 @@ window.RF_CATALOGUE = {
       "Status",
       "alert",
       "Warning, attention, risk",
-      "approved"
+      "approved",
+      "assets/icons/alert.svg"
     ],
     [
       "RF-ICO-016",
@@ -127,7 +142,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "x",
       "Close, remove, dismiss",
-      "approved"
+      "approved",
+      "assets/icons/x.svg"
     ],
     [
       "RF-ICO-017",
@@ -135,7 +151,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "plus",
       "New, create, add",
-      "approved"
+      "approved",
+      "assets/icons/plus.svg"
     ],
     [
       "RF-ICO-018",
@@ -143,7 +160,8 @@ window.RF_CATALOGUE = {
       "Communication",
       "mail",
       "Email, correspondence",
-      "approved"
+      "approved",
+      "assets/icons/mail.svg"
     ],
     [
       "RF-ICO-019",
@@ -151,7 +169,8 @@ window.RF_CATALOGUE = {
       "Communication",
       "message",
       "Chat, conversation, discussion",
-      "approved"
+      "approved",
+      "assets/icons/message.svg"
     ],
     [
       "RF-ICO-020",
@@ -159,7 +178,8 @@ window.RF_CATALOGUE = {
       "AI & Intelligence",
       "bot",
       "Assistant, AI chat",
-      "approved"
+      "approved",
+      "assets/icons/bot.svg"
     ],
     [
       "RF-ICO-021",
@@ -167,7 +187,8 @@ window.RF_CATALOGUE = {
       "Automation",
       "workflow",
       "Workflow, process, orchestration",
-      "approved"
+      "approved",
+      "assets/icons/workflow.svg"
     ],
     [
       "RF-ICO-022",
@@ -175,7 +196,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "upload",
       "Upload, import, attach",
-      "approved"
+      "approved",
+      "assets/icons/upload.svg"
     ],
     [
       "RF-ICO-023",
@@ -183,7 +205,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "download",
       "Download, export, save",
-      "approved"
+      "approved",
+      "assets/icons/download.svg"
     ],
     [
       "RF-ICO-024",
@@ -191,7 +214,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "refresh",
       "Reload, retry, sync",
-      "approved"
+      "approved",
+      "assets/icons/refresh.svg"
     ],
     [
       "RF-ICO-025",
@@ -199,7 +223,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "eye",
       "View, preview, reveal",
-      "approved"
+      "approved",
+      "assets/icons/eye.svg"
     ],
     [
       "RF-ICO-026",
@@ -207,7 +232,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "star",
       "Favourite, save, priority",
-      "approved"
+      "approved",
+      "assets/icons/star.svg"
     ],
     [
       "RF-ICO-027",
@@ -215,7 +241,8 @@ window.RF_CATALOGUE = {
       "Productivity",
       "calendar",
       "Date, schedule, calendar",
-      "approved"
+      "approved",
+      "assets/icons/calendar.svg"
     ],
     [
       "RF-ICO-028",
@@ -223,7 +250,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "link",
       "Relationship, linked data",
-      "approved"
+      "approved",
+      "assets/icons/link.svg"
     ],
     [
       "RF-ICO-029",
@@ -231,7 +259,8 @@ window.RF_CATALOGUE = {
       "Platform",
       "cloud",
       "Cloud, hosted, sync",
-      "approved"
+      "approved",
+      "assets/icons/cloud.svg"
     ],
     [
       "RF-ICO-030",
@@ -239,7 +268,8 @@ window.RF_CATALOGUE = {
       "Platform",
       "globe",
       "Global, locale, worldwide",
-      "approved"
+      "approved",
+      "assets/icons/globe.svg"
     ],
     [
       "RF-ICO-031",
@@ -247,7 +277,8 @@ window.RF_CATALOGUE = {
       "CRM",
       "handshake",
       "Relationship, partner, agreement",
-      "approved"
+      "approved",
+      "assets/icons/handshake.svg"
     ],
     [
       "RF-ICO-032",
@@ -255,7 +286,8 @@ window.RF_CATALOGUE = {
       "Analytics",
       "trending",
       "Growth, increase, trend",
-      "approved"
+      "approved",
+      "assets/icons/trending.svg"
     ],
     [
       "RF-ICO-033",
@@ -263,7 +295,8 @@ window.RF_CATALOGUE = {
       "Documents",
       "file-check",
       "Verified file, approved record",
-      "approved"
+      "approved",
+      "assets/icons/file-check.svg"
     ],
     [
       "RF-ICO-034",
@@ -271,7 +304,8 @@ window.RF_CATALOGUE = {
       "AI & Intelligence",
       "wand",
       "Insight, discovery, suggestion",
-      "approved"
+      "approved",
+      "assets/icons/wand.svg"
     ],
     [
       "RF-ICO-035",
@@ -279,7 +313,8 @@ window.RF_CATALOGUE = {
       "AI & Intelligence",
       "activity",
       "Live activity, monitoring",
-      "approved"
+      "approved",
+      "assets/icons/activity.svg"
     ],
     [
       "RF-ICO-036",
@@ -287,7 +322,8 @@ window.RF_CATALOGUE = {
       "AI & Intelligence",
       "cpu",
       "Model, processing, compute",
-      "approved"
+      "approved",
+      "assets/icons/cpu.svg"
     ],
     [
       "RF-ICO-037",
@@ -295,7 +331,8 @@ window.RF_CATALOGUE = {
       "Security",
       "key",
       "Credential, authentication",
-      "approved"
+      "approved",
+      "assets/icons/key.svg"
     ],
     [
       "RF-ICO-038",
@@ -303,7 +340,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "filter",
       "Filter, refine, narrow",
-      "approved"
+      "approved",
+      "assets/icons/filter.svg"
     ],
     [
       "RF-ICO-039",
@@ -311,7 +349,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "more",
       "More, overflow, options",
-      "approved"
+      "approved",
+      "assets/icons/more.svg"
     ],
     [
       "RF-ICO-040",
@@ -319,7 +358,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "arrow",
       "Continue, next, forward",
-      "approved"
+      "approved",
+      "assets/icons/arrow.svg"
     ],
     [
       "RF-ICO-041",
@@ -327,7 +367,8 @@ window.RF_CATALOGUE = {
       "Status",
       "check-circle",
       "Verified, completed, confirmed",
-      "approved"
+      "approved",
+      "assets/icons/check-circle.svg"
     ],
     [
       "RF-ICO-042",
@@ -335,7 +376,8 @@ window.RF_CATALOGUE = {
       "Status",
       "alert-circle",
       "Issue, error, exception",
-      "approved"
+      "approved",
+      "assets/icons/alert-circle.svg"
     ],
     [
       "RF-ICO-043",
@@ -343,7 +385,8 @@ window.RF_CATALOGUE = {
       "Platform",
       "briefcase",
       "Business, organisation, workspace",
-      "approved"
+      "approved",
+      "assets/icons/briefcase.svg"
     ],
     [
       "RF-ICO-044",
@@ -351,7 +394,8 @@ window.RF_CATALOGUE = {
       "Finance",
       "calculator",
       "Calculation, finance, totals",
-      "approved"
+      "approved",
+      "assets/icons/calculator.svg"
     ],
     [
       "RF-ICO-045",
@@ -359,7 +403,8 @@ window.RF_CATALOGUE = {
       "Platform",
       "building",
       "Company, organisation, tenant",
-      "approved"
+      "approved",
+      "assets/icons/building.svg"
     ],
     [
       "RF-ICO-046",
@@ -367,7 +412,8 @@ window.RF_CATALOGUE = {
       "Security",
       "fingerprint",
       "Identity, biometric, verification",
-      "approved"
+      "approved",
+      "assets/icons/fingerprint.svg"
     ],
     [
       "RF-ICO-047",
@@ -375,7 +421,8 @@ window.RF_CATALOGUE = {
       "Customer Success",
       "heart",
       "Health, retention, satisfaction",
-      "approved"
+      "approved",
+      "assets/icons/heart.svg"
     ],
     [
       "RF-ICO-048",
@@ -383,7 +430,8 @@ window.RF_CATALOGUE = {
       "AI & Intelligence",
       "compass",
       "Direction, strategy, guidance",
-      "approved"
+      "approved",
+      "assets/icons/compass.svg"
     ],
     [
       "RF-ICO-049",
@@ -391,7 +439,8 @@ window.RF_CATALOGUE = {
       "AI & Intelligence",
       "rocket",
       "Agent, launch, execute",
-      "approved"
+      "approved",
+      "assets/icons/rocket.svg"
     ],
     [
       "RF-ICO-050",
@@ -399,7 +448,8 @@ window.RF_CATALOGUE = {
       "AI & Intelligence",
       "sparkles",
       "Insight, AI suggestion, highlight",
-      "approved"
+      "approved",
+      "assets/icons/sparkles.svg"
     ],
     [
       "RF-ICO-051",
@@ -407,7 +457,8 @@ window.RF_CATALOGUE = {
       "Knowledge",
       "book",
       "Knowledge, evidence, documentation",
-      "approved"
+      "approved",
+      "assets/icons/book.svg"
     ],
     [
       "RF-ICO-052",
@@ -415,7 +466,8 @@ window.RF_CATALOGUE = {
       "Developer",
       "code",
       "Code, source, implementation",
-      "approved"
+      "approved",
+      "assets/icons/code.svg"
     ],
     [
       "RF-ICO-066",
@@ -423,7 +475,8 @@ window.RF_CATALOGUE = {
       "Status",
       "x-circle",
       "Dismiss, rejected, closed, remove",
-      "approved"
+      "approved",
+      "assets/icons/x-circle.svg"
     ],
     [
       "RF-ICO-067",
@@ -431,7 +484,8 @@ window.RF_CATALOGUE = {
       "Status",
       "info",
       "Information, help, details",
-      "approved"
+      "approved",
+      "assets/icons/info.svg"
     ],
     [
       "RF-ICO-068",
@@ -439,7 +493,8 @@ window.RF_CATALOGUE = {
       "Communication",
       "phone",
       "Call, telephone, contact",
-      "approved"
+      "approved",
+      "assets/icons/phone.svg"
     ],
     [
       "RF-ICO-069",
@@ -447,7 +502,8 @@ window.RF_CATALOGUE = {
       "Documents",
       "note",
       "Note, memo, text record",
-      "approved"
+      "approved",
+      "assets/icons/note.svg"
     ],
     [
       "RF-ICO-070",
@@ -455,7 +511,8 @@ window.RF_CATALOGUE = {
       "Sales",
       "quote",
       "Quote, estimate, proposal",
-      "approved"
+      "approved",
+      "assets/icons/quote.svg"
     ],
     [
       "RF-ICO-071",
@@ -463,7 +520,8 @@ window.RF_CATALOGUE = {
       "Finance",
       "money",
       "Money, currency, amount",
-      "approved"
+      "approved",
+      "assets/icons/money.svg"
     ],
     [
       "RF-ICO-072",
@@ -471,7 +529,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "chevron-down",
       "Expand, dropdown, collapse",
-      "approved"
+      "approved",
+      "assets/icons/chevron-down.svg"
     ],
     [
       "RF-ICO-073",
@@ -479,7 +538,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "chevron-right",
       "Next, forward, expand",
-      "approved"
+      "approved",
+      "assets/icons/chevron-right.svg"
     ],
     [
       "RF-ICO-074",
@@ -487,7 +547,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "chevron-left",
       "Back, previous",
-      "approved"
+      "approved",
+      "assets/icons/chevron-left.svg"
     ],
     [
       "RF-ICO-075",
@@ -495,7 +556,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "arrow-left",
       "Back, return, previous",
-      "approved"
+      "approved",
+      "assets/icons/arrow-left.svg"
     ],
     [
       "RF-ICO-076",
@@ -503,7 +565,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "arrow-right",
       "Continue, next, forward",
-      "approved"
+      "approved",
+      "assets/icons/arrow-right.svg"
     ],
     [
       "RF-ICO-077",
@@ -511,7 +574,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "edit",
       "Edit, update, pencil",
-      "approved"
+      "approved",
+      "assets/icons/edit.svg"
     ],
     [
       "RF-ICO-078",
@@ -519,7 +583,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "trash",
       "Delete, remove, trash",
-      "approved"
+      "approved",
+      "assets/icons/trash.svg"
     ],
     [
       "RF-ICO-079",
@@ -527,7 +592,8 @@ window.RF_CATALOGUE = {
       "Platform",
       "user",
       "User, account, profile",
-      "approved"
+      "approved",
+      "assets/icons/user.svg"
     ],
     [
       "RF-ICO-080",
@@ -535,7 +601,8 @@ window.RF_CATALOGUE = {
       "Communication",
       "inbox-empty",
       "Inbox, empty state, no messages",
-      "approved"
+      "approved",
+      "assets/icons/inbox-empty.svg"
     ],
     [
       "RF-ICO-081",
@@ -543,7 +610,8 @@ window.RF_CATALOGUE = {
       "Documents",
       "file-text",
       "File, document, text",
-      "approved"
+      "approved",
+      "assets/icons/file-text.svg"
     ],
     [
       "RF-ICO-082",
@@ -551,7 +619,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "undo",
       "Undo, revert, restore",
-      "approved"
+      "approved",
+      "assets/icons/undo.svg"
     ],
     [
       "RF-ICO-083",
@@ -559,7 +628,8 @@ window.RF_CATALOGUE = {
       "AI & Intelligence",
       "sparkle",
       "AI, highlight, magic, suggestion",
-      "approved"
+      "approved",
+      "assets/icons/sparkle.svg"
     ],
     [
       "RF-ICO-084",
@@ -567,7 +637,8 @@ window.RF_CATALOGUE = {
       "Security",
       "logout",
       "Logout, sign out, exit",
-      "approved"
+      "approved",
+      "assets/icons/logout.svg"
     ],
     [
       "RF-ICO-085",
@@ -575,7 +646,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "sort",
       "Sort, order, ascending, descending",
-      "approved"
+      "approved",
+      "assets/icons/sort.svg"
     ],
     [
       "RF-ICO-086",
@@ -583,7 +655,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "external",
       "Open, external, new tab",
-      "approved"
+      "approved",
+      "assets/icons/external.svg"
     ],
     [
       "RF-ICO-087",
@@ -591,7 +664,8 @@ window.RF_CATALOGUE = {
       "Actions",
       "copy",
       "Copy, duplicate, clipboard",
-      "approved"
+      "approved",
+      "assets/icons/copy.svg"
     ],
     [
       "RF-ICO-088",
@@ -599,7 +673,8 @@ window.RF_CATALOGUE = {
       "Productivity",
       "history",
       "History, recent, timeline",
-      "approved"
+      "approved",
+      "assets/icons/history.svg"
     ],
     [
       "RF-ICO-089",
@@ -607,7 +682,8 @@ window.RF_CATALOGUE = {
       "Productivity",
       "list",
       "List, rows, records",
-      "approved"
+      "approved",
+      "assets/icons/list.svg"
     ],
     [
       "RF-ICO-090",
@@ -615,7 +691,8 @@ window.RF_CATALOGUE = {
       "Sales",
       "board",
       "Board, kanban, stages",
-      "approved"
+      "approved",
+      "assets/icons/board.svg"
     ],
     [
       "RF-ICO-091",
@@ -623,7 +700,8 @@ window.RF_CATALOGUE = {
       "Status",
       "circle",
       "Circle, neutral, status",
-      "approved"
+      "approved",
+      "assets/icons/circle.svg"
     ],
     [
       "RF-ICO-092",
@@ -631,7 +709,8 @@ window.RF_CATALOGUE = {
       "Status",
       "flag-risk",
       "Risk, flag, warning, at-risk",
-      "approved"
+      "approved",
+      "assets/icons/flag-risk.svg"
     ]
   ],
   "motions": [
@@ -641,7 +720,8 @@ window.RF_CATALOGUE = {
       "Loading & motion",
       "spinner",
       "Indeterminate operation feedback",
-      "approved"
+      "approved",
+      "docs/MOTION-SPEC.md"
     ],
     [
       "RF-MOT-002",
@@ -649,7 +729,8 @@ window.RF_CATALOGUE = {
       "Loading & motion",
       "pulse",
       "AI is actively processing",
-      "approved"
+      "approved",
+      "docs/MOTION-SPEC.md"
     ],
     [
       "RF-MOT-003",
@@ -657,7 +738,8 @@ window.RF_CATALOGUE = {
       "Loading & motion",
       "skeleton",
       "Content placeholder while loading",
-      "approved"
+      "approved",
+      "docs/MOTION-SPEC.md"
     ],
     [
       "RF-MOT-004",
@@ -665,7 +747,8 @@ window.RF_CATALOGUE = {
       "Loading & motion",
       "orbit",
       "Subtle background AI activity",
-      "proposed"
+      "proposed",
+      "docs/MOTION-SPEC.md"
     ],
     [
       "RF-MOT-005",
@@ -673,7 +756,8 @@ window.RF_CATALOGUE = {
       "Loading & motion",
       "progress",
       "Determinate task progress",
-      "proposed"
+      "proposed",
+      "docs/MOTION-SPEC.md"
     ],
     [
       "RF-MOT-006",
@@ -681,7 +765,8 @@ window.RF_CATALOGUE = {
       "Loading & motion",
       "success",
       "Short confirmation transition",
-      "proposed"
+      "proposed",
+      "docs/MOTION-SPEC.md"
     ],
     [
       "RF-MOT-007",
@@ -689,7 +774,8 @@ window.RF_CATALOGUE = {
       "Loading & motion",
       "bell-ring",
       "Unread notification arrival",
-      "approved"
+      "approved",
+      "docs/MOTION-SPEC.md"
     ],
     [
       "RF-MOT-008",
@@ -697,7 +783,8 @@ window.RF_CATALOGUE = {
       "Loading & motion",
       "glow",
       "Attention without disruptive flashing",
-      "approved"
+      "approved",
+      "docs/MOTION-SPEC.md"
     ]
   ],
   "illustrations": [
@@ -707,7 +794,8 @@ window.RF_CATALOGUE = {
       "Illustrations",
       "grid",
       "No records yet; invite first activity",
-      "proposed"
+      "proposed",
+      "assets/illustrations/empty-workspace.svg"
     ],
     [
       "RF-ILL-002",
@@ -715,7 +803,8 @@ window.RF_CATALOGUE = {
       "Illustrations",
       "search",
       "Search returned no matching records",
-      "proposed"
+      "proposed",
+      "assets/illustrations/no-search-results.svg"
     ],
     [
       "RF-ILL-003",
@@ -723,7 +812,8 @@ window.RF_CATALOGUE = {
       "Illustrations",
       "cloud",
       "Service temporarily unavailable",
-      "proposed"
+      "proposed",
+      "assets/illustrations/connection-interrupted.svg"
     ],
     [
       "RF-ILL-004",
@@ -731,7 +821,8 @@ window.RF_CATALOGUE = {
       "Illustrations",
       "shield",
       "Permission-restricted content",
-      "proposed"
+      "proposed",
+      "assets/illustrations/access-restricted.svg"
     ],
     [
       "RF-ILL-005",
@@ -739,7 +830,8 @@ window.RF_CATALOGUE = {
       "Illustrations",
       "sparkles",
       "First-run workspace introduction",
-      "proposed"
+      "proposed",
+      "assets/illustrations/welcome-onboarding.svg"
     ]
   ],
   "iconSvg": {
