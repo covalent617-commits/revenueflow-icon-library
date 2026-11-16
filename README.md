@@ -1,32 +1,40 @@
 # RevenueFlow Official Visual Asset Library
 
-The central reference catalogue for RevenueFlow icons, loading states, motion references, illustrations and design tokens.
+The central source of truth for RevenueFlow icons, motion, loading states, illustration concepts and design tokens.
 
-**Purpose:** prevent inconsistent, ad-hoc visual asset selection across RevenueFlow. Developers and Cline must consult this library before introducing visual assets.
-
-## Contents
-- `index.html` — searchable interactive catalogue and SVG preview/export.
-- `assets/manifest.json` — canonical asset metadata and approval states.
-- `tokens/design-tokens.json` — semantic visual tokens.
-- `GOVERNANCE.md` — mandatory asset selection and approval rules.
-- `docs/MOTION-SPEC.md` — loading and motion behaviour.
-- `CONTRIBUTING.md` — asset proposal and review process.
+## Repository map
+- `index.html` — searchable catalogue with category filters, favourites, preview, copy and download.
+- `assets/manifest.json` — canonical metadata, keywords, stable IDs, source paths and approval states.
+- `assets/icons.svg` — canonical reusable SVG sprite.
+- `assets/icons/` — individually consumable SVGs generated from the sprite.
+- `assets/catalogue-data.js` — generated website catalogue derived from the manifest.
+- `assets/motion.css` — reduced-motion-aware CSS references.
+- `tokens/design-tokens.json` — semantic design tokens.
+- `GOVERNANCE.md` — mandatory selection and approval rules.
+- `docs/CLINE-INTEGRATION.md` — exact implementation contract for Cline.
+- `scripts/build_assets.py` — deterministic asset generator.
+- `scripts/validate_assets.py` — dependency-free integrity checks.
 
 ## Use
-1. Search by name, category, keyword or asset ID.
-2. Open an asset to inspect its ID, category, status and SVG.
-3. Copy or download the SVG for local implementation.
-4. Preserve the semantic meaning, accessible label and state.
-5. If a needed asset is absent, propose it; do not silently substitute an external pack.
-
-## Important status distinction
-The catalogue currently contains a mix of approved icon references and proposed illustration concepts. The status is visible in the manifest. A catalogue entry is not automatically a production approval. The website is a reference/demo and does not itself migrate or enforce assets in the RevenueFlow application.
+Search by name, category, keyword or ID. Confirm the entry is marked `approved` before production use. Use the manifest's source path or matching sprite symbol. Preserve meaning and accessible labelling. If the right approved asset does not exist, propose it instead of substituting a random asset.
 
 ## Local preview
-Open `index.html` directly in a modern browser. No build step or external runtime dependency is required.
+Open `index.html` in a modern browser. The site uses local scripts and assets; no external icon CDN or runtime build system is required.
 
-## GitHub Pages
-The repository includes a Pages deployment workflow. Enable GitHub Pages in repository Settings → Pages and select **GitHub Actions** as the build/deployment source if it is not already enabled.
+## Validate after changes
+```bash
+python scripts/build_assets.py
+python scripts/validate_assets.py
+```
+Commit generated files with their source changes.
 
-## Version
-Initial comprehensive catalogue build: **1.0.0**.
+## Status meanings
+- `approved`: approved catalogue reference; validate contextual fit.
+- `proposed`: awaiting explicit approval.
+- `experimental`: trial asset not cleared for general use.
+- `deprecated`: retained for migration/history; do not use in new work.
+
+The website is a reference library. It does not itself integrate assets into RevenueFlow's app or enforce policy in a separate repository; consuming repositories must adopt the Cline integration contract.
+
+## Current scope
+52 icon references, 8 motion references with mixed approval states, and 5 illustration concepts. The manifest is the exact source of status and metadata.
