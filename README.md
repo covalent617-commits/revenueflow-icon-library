@@ -37,4 +37,4 @@ Commit generated files with their source changes.
 The website is a reference library. It does not itself integrate assets into RevenueFlow's app or enforce policy in a separate repository; consuming repositories must adopt the Cline integration contract.
 
 ## Current scope
-52 icon references, 8 motion references with mixed approval states, and 5 illustration concepts. The manifest is the exact source of status and metadata.
+79 icon references, 8 motion references with mixed approval states, and 5 illustration concepts. The manifest is the exact source of status and metadata.
