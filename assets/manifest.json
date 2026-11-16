@@ -966,6 +966,414 @@
       "source": "assets/illustrations/welcome-onboarding.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Original vector artwork is present; proposed pending explicit design/product approval."
+    },
+    {
+      "id": "RF-ICO-066",
+      "name": "Dismissed state",
+      "category": "Status",
+      "symbol": "x-circle",
+      "keywords": [
+        "Dismiss",
+        "rejected",
+        "closed",
+        "remove"
+      ],
+      "status": "approved",
+      "source": "assets/icons/x-circle.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-067",
+      "name": "Information state",
+      "category": "Status",
+      "symbol": "info",
+      "keywords": [
+        "Information",
+        "help",
+        "details"
+      ],
+      "status": "approved",
+      "source": "assets/icons/info.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-068",
+      "name": "Phone contact",
+      "category": "Communication",
+      "symbol": "phone",
+      "keywords": [
+        "Call",
+        "telephone",
+        "contact"
+      ],
+      "status": "approved",
+      "source": "assets/icons/phone.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-069",
+      "name": "Note document",
+      "category": "Documents",
+      "symbol": "note",
+      "keywords": [
+        "Note",
+        "memo",
+        "text record"
+      ],
+      "status": "approved",
+      "source": "assets/icons/note.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-070",
+      "name": "Quote quotation",
+      "category": "Sales",
+      "symbol": "quote",
+      "keywords": [
+        "Quote",
+        "estimate",
+        "proposal"
+      ],
+      "status": "approved",
+      "source": "assets/icons/quote.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-071",
+      "name": "Money value",
+      "category": "Finance",
+      "symbol": "money",
+      "keywords": [
+        "Money",
+        "currency",
+        "amount"
+      ],
+      "status": "approved",
+      "source": "assets/icons/money.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-072",
+      "name": "Expand downward",
+      "category": "Actions",
+      "symbol": "chevron-down",
+      "keywords": [
+        "Expand",
+        "dropdown",
+        "collapse"
+      ],
+      "status": "approved",
+      "source": "assets/icons/chevron-down.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-073",
+      "name": "Navigate right",
+      "category": "Actions",
+      "symbol": "chevron-right",
+      "keywords": [
+        "Next",
+        "forward",
+        "expand"
+      ],
+      "status": "approved",
+      "source": "assets/icons/chevron-right.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-074",
+      "name": "Navigate left",
+      "category": "Actions",
+      "symbol": "chevron-left",
+      "keywords": [
+        "Back",
+        "previous"
+      ],
+      "status": "approved",
+      "source": "assets/icons/chevron-left.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-075",
+      "name": "Go back",
+      "category": "Actions",
+      "symbol": "arrow-left",
+      "keywords": [
+        "Back",
+        "return",
+        "previous"
+      ],
+      "status": "approved",
+      "source": "assets/icons/arrow-left.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-076",
+      "name": "Go forward",
+      "category": "Actions",
+      "symbol": "arrow-right",
+      "keywords": [
+        "Continue",
+        "next",
+        "forward"
+      ],
+      "status": "approved",
+      "source": "assets/icons/arrow-right.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-077",
+      "name": "Edit record",
+      "category": "Actions",
+      "symbol": "edit",
+      "keywords": [
+        "Edit",
+        "update",
+        "pencil"
+      ],
+      "status": "approved",
+      "source": "assets/icons/edit.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-078",
+      "name": "Delete record",
+      "category": "Actions",
+      "symbol": "trash",
+      "keywords": [
+        "Delete",
+        "remove",
+        "trash"
+      ],
+      "status": "approved",
+      "source": "assets/icons/trash.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-079",
+      "name": "Single user",
+      "category": "Platform",
+      "symbol": "user",
+      "keywords": [
+        "User",
+        "account",
+        "profile"
+      ],
+      "status": "approved",
+      "source": "assets/icons/user.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-080",
+      "name": "Empty inbox",
+      "category": "Communication",
+      "symbol": "inbox-empty",
+      "keywords": [
+        "Inbox",
+        "empty state",
+        "no messages"
+      ],
+      "status": "approved",
+      "source": "assets/icons/inbox-empty.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-081",
+      "name": "Text file",
+      "category": "Documents",
+      "symbol": "file-text",
+      "keywords": [
+        "File",
+        "document",
+        "text"
+      ],
+      "status": "approved",
+      "source": "assets/icons/file-text.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-082",
+      "name": "Undo change",
+      "category": "Actions",
+      "symbol": "undo",
+      "keywords": [
+        "Undo",
+        "revert",
+        "restore"
+      ],
+      "status": "approved",
+      "source": "assets/icons/undo.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-083",
+      "name": "Sparkle highlight",
+      "category": "AI & Intelligence",
+      "symbol": "sparkle",
+      "keywords": [
+        "AI",
+        "highlight",
+        "magic",
+        "suggestion"
+      ],
+      "status": "approved",
+      "source": "assets/icons/sparkle.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-084",
+      "name": "Sign out",
+      "category": "Security",
+      "symbol": "logout",
+      "keywords": [
+        "Logout",
+        "sign out",
+        "exit"
+      ],
+      "status": "approved",
+      "source": "assets/icons/logout.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-085",
+      "name": "Sort records",
+      "category": "Actions",
+      "symbol": "sort",
+      "keywords": [
+        "Sort",
+        "order",
+        "ascending",
+        "descending"
+      ],
+      "status": "approved",
+      "source": "assets/icons/sort.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-086",
+      "name": "External link",
+      "category": "Actions",
+      "symbol": "external",
+      "keywords": [
+        "Open",
+        "external",
+        "new tab"
+      ],
+      "status": "approved",
+      "source": "assets/icons/external.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-087",
+      "name": "Copy content",
+      "category": "Actions",
+      "symbol": "copy",
+      "keywords": [
+        "Copy",
+        "duplicate",
+        "clipboard"
+      ],
+      "status": "approved",
+      "source": "assets/icons/copy.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-088",
+      "name": "Activity history",
+      "category": "Productivity",
+      "symbol": "history",
+      "keywords": [
+        "History",
+        "recent",
+        "timeline"
+      ],
+      "status": "approved",
+      "source": "assets/icons/history.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-089",
+      "name": "List view",
+      "category": "Productivity",
+      "symbol": "list",
+      "keywords": [
+        "List",
+        "rows",
+        "records"
+      ],
+      "status": "approved",
+      "source": "assets/icons/list.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-090",
+      "name": "Board view",
+      "category": "Sales",
+      "symbol": "board",
+      "keywords": [
+        "Board",
+        "kanban",
+        "stages"
+      ],
+      "status": "approved",
+      "source": "assets/icons/board.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-091",
+      "name": "Neutral state",
+      "category": "Status",
+      "symbol": "circle",
+      "keywords": [
+        "Circle",
+        "neutral",
+        "status"
+      ],
+      "status": "approved",
+      "source": "assets/icons/circle.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-092",
+      "name": "Risk flag",
+      "category": "Status",
+      "symbol": "flag-risk",
+      "keywords": [
+        "Risk",
+        "flag",
+        "warning",
+        "at-risk"
+      ],
+      "status": "approved",
+      "source": "assets/icons/flag-risk.svg",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
     }
   ]
 }
