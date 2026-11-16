@@ -66,6 +66,8 @@ if node:
         Path(temp_path).unlink(missing_ok=True)
 css = (ROOT / "assets/motion.css").read_text(encoding="utf-8").replace(" ", "")
 assert "@media(prefers-reduced-motion:reduce)" in css, "Reduced-motion fallback is missing"
+for selector in (".rf-spinner", ".rf-ai-pulse", ".rf-skeleton", ".rf-orbit", ".rf-progress", ".rf-success", ".rf-bell-ring", ".rf-soft-glow"):
+    assert selector in css, f"Missing motion reference: {selector}"
 json.loads((ROOT / "tokens/design-tokens.json").read_text(encoding="utf-8"))
 print(json.dumps({"valid": True, "manifest_version": manifest["schema_version"],
                   "assets": len(assets), "icons": len(icons), "svg_symbols": len(symbols),
