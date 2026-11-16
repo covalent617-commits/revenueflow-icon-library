@@ -34,7 +34,7 @@ assert match, "Generated catalogue JS has invalid wrapper"
 catalogue = json.loads(match.group(1))
 def expected(prefix):
     return [[a["id"], a["name"], a["category"], a.get("symbol", ""),
-             ", ".join(a.get("keywords", [])), a["status"]]
+             ", ".join(a.get("keywords", [])), a["status"], a["source"]]
             for a in assets if a["id"].startswith(prefix)]
 assert catalogue["icons"] == expected("RF-ICO-"), "Website icon data is stale"
 assert catalogue["motions"] == expected("RF-MOT-"), "Website motion data is stale"
