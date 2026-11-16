@@ -36,7 +36,7 @@ def main() -> None:
         (ICON_DIR / f"{key}.svg").write_text(symbols[key] + "\n", encoding="utf-8")
     def tuples(prefix: str):
         return [[a["id"], a["name"], a["category"], a.get("symbol", ""),
-                 ", ".join(a.get("keywords", [])), a["status"]]
+                 ", ".join(a.get("keywords", [])), a["status"], a["source"]]
                 for a in manifest["assets"] if a["id"].startswith(prefix)]
     illustrations = [a for a in manifest["assets"] if a["id"].startswith("RF-ILL-")]
     illustration_svg = {}
