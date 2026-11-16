@@ -416,6 +416,222 @@ window.RF_CATALOGUE = {
       "code",
       "Code, source, implementation",
       "approved"
+    ],
+    [
+      "RF-ICO-066",
+      "Dismissed state",
+      "Status",
+      "x-circle",
+      "Dismiss, rejected, closed, remove",
+      "approved"
+    ],
+    [
+      "RF-ICO-067",
+      "Information state",
+      "Status",
+      "info",
+      "Information, help, details",
+      "approved"
+    ],
+    [
+      "RF-ICO-068",
+      "Phone contact",
+      "Communication",
+      "phone",
+      "Call, telephone, contact",
+      "approved"
+    ],
+    [
+      "RF-ICO-069",
+      "Note document",
+      "Documents",
+      "note",
+      "Note, memo, text record",
+      "approved"
+    ],
+    [
+      "RF-ICO-070",
+      "Quote quotation",
+      "Sales",
+      "quote",
+      "Quote, estimate, proposal",
+      "approved"
+    ],
+    [
+      "RF-ICO-071",
+      "Money value",
+      "Finance",
+      "money",
+      "Money, currency, amount",
+      "approved"
+    ],
+    [
+      "RF-ICO-072",
+      "Expand downward",
+      "Actions",
+      "chevron-down",
+      "Expand, dropdown, collapse",
+      "approved"
+    ],
+    [
+      "RF-ICO-073",
+      "Navigate right",
+      "Actions",
+      "chevron-right",
+      "Next, forward, expand",
+      "approved"
+    ],
+    [
+      "RF-ICO-074",
+      "Navigate left",
+      "Actions",
+      "chevron-left",
+      "Back, previous",
+      "approved"
+    ],
+    [
+      "RF-ICO-075",
+      "Go back",
+      "Actions",
+      "arrow-left",
+      "Back, return, previous",
+      "approved"
+    ],
+    [
+      "RF-ICO-076",
+      "Go forward",
+      "Actions",
+      "arrow-right",
+      "Continue, next, forward",
+      "approved"
+    ],
+    [
+      "RF-ICO-077",
+      "Edit record",
+      "Actions",
+      "edit",
+      "Edit, update, pencil",
+      "approved"
+    ],
+    [
+      "RF-ICO-078",
+      "Delete record",
+      "Actions",
+      "trash",
+      "Delete, remove, trash",
+      "approved"
+    ],
+    [
+      "RF-ICO-079",
+      "Single user",
+      "Platform",
+      "user",
+      "User, account, profile",
+      "approved"
+    ],
+    [
+      "RF-ICO-080",
+      "Empty inbox",
+      "Communication",
+      "inbox-empty",
+      "Inbox, empty state, no messages",
+      "approved"
+    ],
+    [
+      "RF-ICO-081",
+      "Text file",
+      "Documents",
+      "file-text",
+      "File, document, text",
+      "approved"
+    ],
+    [
+      "RF-ICO-082",
+      "Undo change",
+      "Actions",
+      "undo",
+      "Undo, revert, restore",
+      "approved"
+    ],
+    [
+      "RF-ICO-083",
+      "Sparkle highlight",
+      "AI & Intelligence",
+      "sparkle",
+      "AI, highlight, magic, suggestion",
+      "approved"
+    ],
+    [
+      "RF-ICO-084",
+      "Sign out",
+      "Security",
+      "logout",
+      "Logout, sign out, exit",
+      "approved"
+    ],
+    [
+      "RF-ICO-085",
+      "Sort records",
+      "Actions",
+      "sort",
+      "Sort, order, ascending, descending",
+      "approved"
+    ],
+    [
+      "RF-ICO-086",
+      "External link",
+      "Actions",
+      "external",
+      "Open, external, new tab",
+      "approved"
+    ],
+    [
+      "RF-ICO-087",
+      "Copy content",
+      "Actions",
+      "copy",
+      "Copy, duplicate, clipboard",
+      "approved"
+    ],
+    [
+      "RF-ICO-088",
+      "Activity history",
+      "Productivity",
+      "history",
+      "History, recent, timeline",
+      "approved"
+    ],
+    [
+      "RF-ICO-089",
+      "List view",
+      "Productivity",
+      "list",
+      "List, rows, records",
+      "approved"
+    ],
+    [
+      "RF-ICO-090",
+      "Board view",
+      "Sales",
+      "board",
+      "Board, kanban, stages",
+      "approved"
+    ],
+    [
+      "RF-ICO-091",
+      "Neutral state",
+      "Status",
+      "circle",
+      "Circle, neutral, status",
+      "approved"
+    ],
+    [
+      "RF-ICO-092",
+      "Risk flag",
+      "Status",
+      "flag-risk",
+      "Risk, flag, warning, at-risk",
+      "approved"
     ]
   ],
   "motions": [
@@ -578,7 +794,34 @@ window.RF_CATALOGUE = {
     "rocket": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 16.5c-1.5 1.3-2 5-2 5s3.7-.5 5-2c.7-.8.7-2 0-2.8a2 2 0 0 0-3 0Z\"/><path d=\"m12 15-3-3a22 22 0 0 1 2-3c3.5-4 8-5 11-5 0 3-1 7.5-5 11a22 22 0 0 1-3 2l-2-2Z\"/><circle cx=\"16\" cy=\"8\" r=\"2\"/></svg>",
     "sparkles": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m12 3 1.9 5.8L20 11l-6.1 2.2L12 19l-1.9-5.8L4 11l6.1-2.2L12 3ZM19 14l1.2 2.8L23 18l-2.8 1.2L19 22l-1.2-2.8L15 18l2.8-1.2L19 14Z\"/></svg>",
     "book": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 19.5A2.5 2.5 0 0 1 6.5 17H20\"/><path d=\"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z\"/></svg>",
-    "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m8 17-5-5 5-5m8 10 5-5-5-5m-3-7-2 20\"/></svg>"
+    "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m8 17-5-5 5-5m8 10 5-5-5-5m-3-7-2 20\"/></svg>",
+    "x-circle": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M9 9l6 6M15 9l-6 6\"/></svg>",
+    "info": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 11v5\"/><path d=\"M12 8h.01\"/></svg>",
+    "phone": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 3.5h3l1.5 4-2 1.5a11 11 0 0 0 5 5l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4 5.7 2 2 0 0 1 6 3.5z\"/></svg>",
+    "note": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 3.5h8l4 4v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-16a1 1 0 0 1 1-1z\"/><path d=\"M14 3.5V8h4.5\"/><path d=\"M8.5 12.5h7M8.5 16h4.5\"/></svg>",
+    "quote": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 8.5H5.5A1.5 1.5 0 0 1 4 7V6a1.5 1.5 0 0 1 1.5-1.5H8A1.5 1.5 0 0 1 9.5 6v7a4 4 0 0 1-4 4H5\"/><path d=\"M17 8.5h-1.5A1.5 1.5 0 0 1 14 7V6a1.5 1.5 0 0 1 1.5-1.5H18A1.5 1.5 0 0 1 19.5 6v7a4 4 0 0 1-4 4H15\"/></svg>",
+    "money": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M15 9.5c-.6-.9-1.7-1.4-3-1.4-1.8 0-3 .9-3 2.2 0 2.6 6 1.4 6 4 0 1.3-1.2 2.2-3 2.2-1.3 0-2.4-.5-3-1.4\"/><path d=\"M12 6.5v11\"/></svg>",
+    "chevron-down": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 9.5l6 6 6-6\"/></svg>",
+    "chevron-right": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.5 6l6 6-6 6\"/></svg>",
+    "chevron-left": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14.5 6l-6 6 6 6\"/></svg>",
+    "arrow-left": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 12H4\"/><path d=\"M10 6l-6 6 6 6\"/></svg>",
+    "arrow-right": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 12h16\"/><path d=\"M14 6l6 6-6 6\"/></svg>",
+    "edit": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 20h4l10-10-4-4L4 16v4z\"/><path d=\"M13.5 5.5 18.5 10.5\"/></svg>",
+    "trash": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 7h16\"/><path d=\"M9 7V4.5h6V7\"/><path d=\"M6.5 7l1 13a1 1 0 0 0 1 .9h7a1 1 0 0 0 1-.9l1-13\"/><path d=\"M10 11v6M14 11v6\"/></svg>",
+    "user": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"8.5\" r=\"3.5\"/><path d=\"M5 20v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1\"/></svg>",
+    "inbox-empty": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 13.5 6.5 5h11L20 13.5\"/><path d=\"M4 13.5h4l1 2.5h6l1-2.5h4V18a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z\"/></svg>",
+    "file-text": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 3.5h11a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-16a1 1 0 0 1 1-1z\"/><path d=\"M9 8h7M9 12h7M9 16h4\"/></svg>",
+    "undo": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 7H5V3\"/><path d=\"M5 7a8 8 0 1 1 1.5 9.5\"/></svg>",
+    "sparkle": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3.5l1.8 4.7 4.7 1.8-4.7 1.8L12 16.5l-1.8-4.7L5.5 10l4.7-1.8z\"/><path d=\"M18.5 16.5l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z\"/></svg>",
+    "logout": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M15 5h3a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-3\"/><path d=\"M10 8l-4 4 4 4\"/><path d=\"M6 12h9\"/></svg>",
+    "sort": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 6v12\"/><path d=\"M5 9l3-3 3 3\"/><path d=\"M16 18V6\"/><path d=\"M13 15l3 3 3-3\"/></svg>",
+    "external": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 4h6v6\"/><path d=\"M20 4l-8.5 8.5\"/><path d=\"M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5\"/></svg>",
+    "copy": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"9\" y=\"9\" width=\"11\" height=\"11\" rx=\"1.5\"/><path d=\"M15 9V5.5A1.5 1.5 0 0 0 13.5 4H5.5A1.5 1.5 0 0 0 4 5.5v8A1.5 1.5 0 0 0 5.5 15H9\"/></svg>",
+    "history": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3.5 12a8.5 8.5 0 1 0 2.6-6.1\"/><path d=\"M3.5 4v4h4\"/><path d=\"M12 8v4.5l3 2\"/></svg>",
+    "list": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 6h12M8 12h12M8 18h12\"/><path d=\"M4 6h.01M4 12h.01M4 18h.01\"/></svg>",
+    "board": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3.5\" y=\"4.5\" width=\"6\" height=\"15\" rx=\"1.5\"/><rect x=\"14.5\" y=\"4.5\" width=\"6\" height=\"9\" rx=\"1.5\"/></svg>",
+    "circle": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"8.5\"/></svg>",
+    "flag-risk": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 21V4\"/><path d=\"M6 5h10l-1.5 3.5L16 12H6\"/></svg>"
   },
   "illustrationSvg": {
     "grid": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 160\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M62 48h76l20 20v54a9 9 0 0 1-9 9H62a9 9 0 0 1-9-9V57a9 9 0 0 1 9-9Z\" opacity=\".22\"/><path d=\"M138 48v20h20M77 84h54M77 99h37\" opacity=\".7\"/><circle cx=\"169\" cy=\"102\" r=\"25\" fill=\"#101827\" stroke=\"#59d7e8\"/><path d=\"M169 89v26m-13-13h26\" stroke=\"#59d7e8\" stroke-width=\"3\"/><path d=\"M38 38h26M51 25v26M191 42h16m-8-8v16\" stroke=\"#8b9cff\" opacity=\".8\"/></svg>",
