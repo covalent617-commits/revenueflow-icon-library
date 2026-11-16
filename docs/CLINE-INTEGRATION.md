@@ -1,21 +1,25 @@
 # Cline integration contract
 
-When implementing or modifying RevenueFlow UI:
+This is mandatory for every RevenueFlow UI implementation.
 
-1. Read the Visual Asset Library README and GOVERNANCE.md.
-2. Search assets/manifest.json by semantic name, keywords and category.
-3. For an approved icon, use its SVG symbol from assets/icons.svg or copy its SVG markup into the consuming application with provenance retained.
-4. Import tokens from tokens/design-tokens.json into the consuming design-token layer; do not independently invent competing values.
-5. For loading states, follow docs/MOTION-SPEC.md and use assets/motion.css as the reference implementation.
-6. If no appropriate approved asset exists, report the gap and propose a new asset. Do not select a random external asset.
-7. In implementation reports, distinguish a reference available in this repository from an asset actually integrated and tested in the product application.
+1. Read `README.md` and `GOVERNANCE.md` before selecting or adding visual assets.
+2. Search `assets/manifest.json` by stable ID, semantic name, keywords and category.
+3. Use only `approved` entries in production. Proposed/experimental assets require explicit approval; deprecated assets are forbidden for new work.
+4. Use the manifest's standalone SVG `source` path or matching symbol from `assets/icons.svg`; retain the asset ID in implementation records.
+5. Import semantic values from `tokens/design-tokens.json` into the app's token layer rather than inventing competing values.
+6. Follow `docs/MOTION-SPEC.md` and `assets/motion.css`; support `prefers-reduced-motion`.
+7. If a suitable approved asset is missing, report the gap and propose an addition. Never silently use emoji, arbitrary glyphs, external icon packs, random SVGs or stock art.
+8. Run `python scripts/build_assets.py` and `python scripts/validate_assets.py` after library changes.
+9. Report separately what is referenced, integrated, tested and browser-verified.
 
-Example SVG symbol use (adjust the asset path for the consuming application's public/static asset configuration):
-
+Standalone icon:
 ```html
-<svg role="img" aria-label="Dashboard">
-  <use href="/assets/icons.svg#rf-grid"></use>
-</svg>
+<img src="/assets/icons/grid.svg" alt="" aria-hidden="true">
 ```
 
-For decorative icons use `aria-hidden="true"`. For icon-only controls, provide an accessible name on the button itself.
+Sprite:
+```html
+<svg aria-hidden="true" focusable="false"><use href="/assets/icons.svg#rf-grid"></use></svg>
+```
+
+For icon-only controls, put the accessible name on the button itself.
