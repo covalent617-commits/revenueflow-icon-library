@@ -25,6 +25,7 @@
 <footer class="footer"><span>RevenueFlow Official Visual Asset Library · v1.0.0</span><span>Catalogue source: assets/manifest.json · Governance: GOVERNANCE.md</span><span>Demonstration catalogue — verify approval status before production adoption.</span></footer>
 </div>
 <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="dialog"><div class="dialog-head"><h2 id="modalTitle">Asset details</h2><button class="close" id="close">Close ✕</button></div><div class="preview" id="preview"></div><div class="meta" id="meta"></div><pre class="code" id="code"></pre><div class="actions"><button class="primary" id="copySvg">Copy SVG</button><button class="secondary" id="downloadSvg">Download SVG</button><button class="secondary" id="copyId">Copy asset ID</button></div></div></div><div class="toast" id="toast" role="status"></div>
+<script src="assets/catalogue-data.js"></script>
 <script>
 const iconPaths={
 'grid': '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
@@ -80,82 +81,11 @@ const iconPaths={
 'book':'<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/>',
 'code':'<path d="m8 17-5-5 5-5m8 10 5-5-5-5m-3-7-2 20"/>'
 };
-const specs=[
-['RF-ICO-001','Dashboard overview','Navigation','grid','Home, overview, workspace','approved'],
-['RF-ICO-002','Customers & contacts','CRM','users','People, customer records, contacts','approved'],
-['RF-ICO-003','Sales pipeline','Sales','target','Deals, pipeline, conversion','approved'],
-['RF-ICO-004','Analytics','Analytics','chart','Reports, performance, metrics','approved'],
-['RF-ICO-005','Revenue & payments','Finance','wallet','Billing, cash, payments','approved'],
-['RF-ICO-006','Documents','Documents','file','Files, contracts, records','approved'],
-['RF-ICO-007','Intelligence brain','AI & Intelligence','brain','AI core, reasoning, intelligence','approved'],
-['RF-ICO-008','Notifications','Notifications','bell','Alerts, unread, notification centre','approved'],
-['RF-ICO-009','Security shield','Security','shield','Protection, trust, security controls','approved'],
-['RF-ICO-010','Access lock','Security','lock','Restricted, private, locked','approved'],
-['RF-ICO-011','Search','Navigation','search','Find, lookup, search','approved'],
-['RF-ICO-012','Settings','Navigation','settings','Preferences, configuration','approved'],
-['RF-ICO-013','Success check','Status','check','Done, confirmed, success','approved'],
-['RF-ICO-014','Pending clock','Status','clock','Pending, scheduled, waiting','approved'],
-['RF-ICO-015','Warning alert','Status','alert','Warning, attention, risk','approved'],
-['RF-ICO-016','Close / dismiss','Actions','x','Close, remove, dismiss','approved'],
-['RF-ICO-017','Create / add','Actions','plus','New, create, add','approved'],
-['RF-ICO-018','Email','Communication','mail','Email, correspondence','approved'],
-['RF-ICO-019','Conversation','Communication','message','Chat, conversation, discussion','approved'],
-['RF-ICO-020','AI assistant','AI & Intelligence','bot','Assistant, AI chat','approved'],
-['RF-ICO-021','Automation workflow','Automation','workflow','Workflow, process, orchestration','approved'],
-['RF-ICO-022','Upload','Actions','upload','Upload, import, attach','approved'],
-['RF-ICO-023','Download','Actions','download','Download, export, save','approved'],
-['RF-ICO-024','Refresh','Actions','refresh','Reload, retry, sync','approved'],
-['RF-ICO-025','Visibility','Actions','eye','View, preview, reveal','approved'],
-['RF-ICO-026','Favourite','Actions','star','Favourite, save, priority','approved'],
-['RF-ICO-027','Calendar','Productivity','calendar','Date, schedule, calendar','approved'],
-['RF-ICO-028','Linked records','Actions','link','Relationship, linked data','approved'],
-['RF-ICO-029','Cloud services','Platform','cloud','Cloud, hosted, sync','approved'],
-['RF-ICO-030','Global workspace','Platform','globe','Global, locale, worldwide','approved'],
-['RF-ICO-031','Partnership','CRM','handshake','Relationship, partner, agreement','approved'],
-['RF-ICO-032','Growth trend','Analytics','trending','Growth, increase, trend','approved'],
-['RF-ICO-033','Verified document','Documents','file-check','Verified file, approved record','approved'],
-['RF-ICO-034','AI discovery','AI & Intelligence','wand','Insight, discovery, suggestion','approved'],
-['RF-ICO-035','Activity pulse','AI & Intelligence','activity','Live activity, monitoring','approved'],
-['RF-ICO-036','Compute / model','AI & Intelligence','cpu','Model, processing, compute','approved'],
-['RF-ICO-037','Credential key','Security','key','Credential, authentication','approved'],
-['RF-ICO-038','Filter results','Actions','filter','Filter, refine, narrow','approved'],
-['RF-ICO-039','More options','Actions','more','More, overflow, options','approved'],
-['RF-ICO-040','Navigate forward','Actions','arrow','Continue, next, forward','approved'],
-['RF-ICO-041','Confirmed state','Status','check-circle','Verified, completed, confirmed','approved'],
-['RF-ICO-042','Issue state','Status','alert-circle','Issue, error, exception','approved'],
-['RF-ICO-043','Business workspace','Platform','briefcase','Business, organisation, workspace','approved'],
-['RF-ICO-044','Financial calculator','Finance','calculator','Calculation, finance, totals','approved'],
-['RF-ICO-045','Organisation','Platform','building','Company, organisation, tenant','approved'],
-['RF-ICO-046','Identity verification','Security','fingerprint','Identity, biometric, verification','approved'],
-['RF-ICO-047','Customer health','Customer Success','heart','Health, retention, satisfaction','approved'],
-['RF-ICO-048','Strategy compass','AI & Intelligence','compass','Direction, strategy, guidance','approved'],
-['RF-ICO-049','Agent execution','AI & Intelligence','rocket','Agent, launch, execute','approved'],
-['RF-ICO-050','Intelligence insight','AI & Intelligence','sparkles','Insight, AI suggestion, highlight','approved'],
-['RF-ICO-051','Knowledge base','Knowledge','book','Knowledge, evidence, documentation','approved'],
-['RF-ICO-052','Developer source','Developer','code','Code, source, implementation','approved']
-];
-const categories=['All assets',...new Set(specs.map(x=>x[2])),'Loading & motion','Illustrations','Design tokens'];
-const motionAssets=[
-['RF-MOT-001','Circular loading spinner','Loading & motion','spinner','Indeterminate operation feedback','approved'],
-['RF-MOT-002','AI activity pulse','Loading & motion','pulse','AI is actively processing','approved'],
-['RF-MOT-003','Skeleton content shimmer','Loading & motion','skeleton','Content placeholder while loading','approved'],
-['RF-MOT-004','Intelligence orbit','Loading & motion','orbit','Subtle background AI activity','approved'],
-['RF-MOT-005','Progress bar','Loading & motion','progress','Determinate task progress','approved'],
-['RF-MOT-006','Success confirmation','Loading & motion','success','Short confirmation transition','approved'],
-['RF-MOT-007','Notification bell ring','Loading & motion','bell-ring','Unread notification arrival','approved'],
-['RF-MOT-008','Soft glow emphasis','Loading & motion','glow','Attention without disruptive flashing','approved']
-];
-const illustrationAssets=[
-['RF-ILL-001','Empty workspace','Illustrations','grid','No records yet; invite first activity','proposed'],
-['RF-ILL-002','No search results','Illustrations','search','Search returned no matching records','proposed'],
-['RF-ILL-003','Connection interrupted','Illustrations','cloud','Service temporarily unavailable','proposed'],
-['RF-ILL-004','Access restricted','Illustrations','shield','Permission-restricted content','proposed'],
-['RF-ILL-005','Welcome onboarding','Illustrations','sparkles','First-run workspace introduction','proposed']
-];
+const {icons:specs,motions:motionAssets,illustrations:illustrationAssets,iconSvg}=window.RF_CATALOGUE;
 const assets=[...specs,...motionAssets,...illustrationAssets];
 const state={category:'All assets',query:'',fav:false,sort:'name',selected:null};
 let favs=new Set();try{favs=new Set(JSON.parse(localStorage.getItem('rf-favourites')||'[]'))}catch{}
-const svg=(key)=>'<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+(iconPaths[key]||iconPaths.sparkles)+'</svg>';
+const svg=(key)=>{const raw=iconSvg[key]||iconSvg.sparkles;return raw.replace('<svg ','<svg aria-hidden="true" ')};
 const $=id=>document.getElementById(id);
 function renderTabs(){ $('tabs').innerHTML=categories.map(c=>'<button class="tab '+(state.category===c?'active':'')+'" data-cat="'+c.replaceAll('"','&quot;')+'">'+c+'</button>').join('');$('tabs').querySelectorAll('button').forEach(b=>b.onclick=()=>{state.category=b.dataset.cat;render()})}
 function render(){renderTabs();let list=assets.filter(a=>(state.category==='All assets'||a[2]===state.category)&&( !state.fav||favs.has(a[0]))&&(!state.query||a.join(' ').toLowerCase().includes(state.query.toLowerCase())));list.sort((a,b)=>state.sort==='id'?a[0].localeCompare(b[0]):state.sort==='category'?a[2].localeCompare(b[2])||a[1].localeCompare(b[1]):a[1].localeCompare(b[1]));$('grid').innerHTML=list.length?list.map(a=>'<button class="asset" data-id="'+a[0]+'"><span class="star '+(favs.has(a[0])?'on':'')+'" data-star="'+a[0]+'" aria-label="Toggle favourite">'+(favs.has(a[0])?'★':'☆')+'</span><span class="asset-icon">'+(a[2]==='Loading & motion'?motionPreview(a[3]):svg(a[3]))+'</span><strong>'+a[1]+'</strong><small>'+a[2]+' · '+a[5]+'</small><span class="id">'+a[0]+'</span></button>').join(''):'<div class="empty">No assets match this search. Try another term or category.</div>';$('assetCount').textContent=assets.length;$('resultCount').textContent=list.length+' assets';$('sectionTitle').textContent=state.fav?'Your favourites':state.category}
