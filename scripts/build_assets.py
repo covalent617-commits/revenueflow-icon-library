@@ -25,6 +25,7 @@ def main() -> None:
         rest = re.sub(r'\bid="[^"]+"', "", attrs)
         rest = re.sub(r'\bviewBox="[^"]+"', "", rest).strip()
         symbols[key] = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{vb}" {rest}>{body}</svg>'
+    ICON_DIR.mkdir(parents=True, exist_ok=True)
     icons = [a for a in manifest["assets"] if a["id"].startswith("RF-ICO-")]
     if len(icons) != len(symbols):
         raise SystemExit(f"Icon/symbol count mismatch: {len(icons)} vs {len(symbols)}")
