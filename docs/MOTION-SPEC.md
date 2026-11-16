@@ -1,25 +1,37 @@
 # Loading and motion reference
 
-Motion communicates state; it must never be decoration at the expense of clarity.
+Motion communicates a real state. It must never imply progress, intelligence or completion that has not happened.
 
-| Pattern | Use | Guidance |
-|---|---|---|
-| Indeterminate spinner | Short operation with unknown duration | Keep small; pair with a textual status for longer waits |
-| Determinate progress | Known measurable work | Show percentage or meaningful stage when reliable |
-| Skeleton | Content is loading and layout is known | Match final content geometry; do not use as an indefinite placeholder |
-| AI activity pulse | Assistant/agent is actively processing | Pair with explicit wording such as “Analysing”; never imply completion |
-| Intelligence orbit | Subtle non-blocking ambient state | Decorative only; hide from screen readers |
-| Success confirmation | A task completed successfully | Brief, non-blocking; preserve persistent status in the UI |
-| Notification ring | A new notification arrives | Avoid repeated disruptive movement; respect reduced motion |
-| Glow emphasis | Draw attention to a relevant control | Maintain contrast; never use glow as the only state indicator |
+## Catalogue patterns and implementation state
+
+| Pattern | Catalogue ID | State | Production guidance |
+|---|---|---|---|
+| Indeterminate spinner | RF-MOT-001 | Approved | Use for short operations with unknown duration; pair with text for longer waits |
+| AI activity pulse | RF-MOT-002 | Approved | Show only while an assistant/agent is actively processing; pair with explicit wording |
+| Skeleton shimmer | RF-MOT-003 | Approved | Use only when final content geometry is known; never leave indefinitely |
+| Intelligence orbit | RF-MOT-004 | Proposed | Preview concept only; no approved reusable production CSS component |
+| Determinate progress | RF-MOT-005 | Proposed | Must be tied to measured progress, not estimated visual theatre |
+| Success confirmation | RF-MOT-006 | Proposed | Must represent a confirmed successful outcome |
+| Notification bell ring | RF-MOT-007 | Approved | Brief notification-arrival cue; avoid repeated disruptive motion |
+| Soft glow emphasis | RF-MOT-008 | Approved | Secondary emphasis only; never the sole indicator of state |
+
+The exact approval state lives in `assets/manifest.json`. The website preview is not a production integration.
+
+## Current CSS references
+
+`assets/motion.css` currently provides:
+- `.rf-spinner`
+- `.rf-ai-pulse`
+- `.rf-skeleton`
+- `.rf-bell-ring`
+- `.rf-soft-glow`
+
+The catalogue also previews proposed concepts. A preview does not imply that production-ready CSS or a reusable component exists.
 
 ## Accessibility and behaviour
-- Respect `prefers-reduced-motion: reduce`.
-- Provide a static alternative for every non-essential animation.
+- Respect `prefers-reduced-motion: reduce`; every non-essential animation needs a static alternative.
 - Avoid rapid flashing, large parallax and continuous motion that competes with reading.
-- Do not animate status indefinitely after the operation has completed.
+- Stop activity motion when the underlying operation ends.
 - Use `aria-live` for meaningful status text, not decorative animation.
-- Do not announce every animation frame to assistive technology.
-
-## Current demo
-The catalogue demonstrates spinner, pulse, skeleton and orbit CSS patterns. These are reference behaviours, not yet a versioned production motion package. Product teams should extract and test reusable components before production use.
+- Do not announce animation frames to assistive technology.
+- Never imply an operation succeeded until the backend confirms success.
