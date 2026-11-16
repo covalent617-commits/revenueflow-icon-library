@@ -1,0 +1,971 @@
+{
+  "schema_version": "1.0.0",
+  "library": "RevenueFlow Official Visual Asset Library",
+  "generated_note": "Initial catalogue metadata. The interactive reference page currently embeds its icon preview paths in index.html; canonical reusable SVG symbols are provided in assets/icons.svg.",
+  "categories": [
+    "Navigation",
+    "CRM",
+    "Sales",
+    "Analytics",
+    "Finance",
+    "Documents",
+    "AI & Intelligence",
+    "Notifications",
+    "Security",
+    "Status",
+    "Actions",
+    "Communication",
+    "Automation",
+    "Productivity",
+    "Platform",
+    "Customer Success",
+    "Knowledge",
+    "Developer",
+    "Loading & motion",
+    "Illustrations"
+  ],
+  "assets": [
+    {
+      "id": "RF-ICO-001",
+      "name": "Dashboard overview",
+      "category": "Navigation",
+      "symbol": "grid",
+      "keywords": [
+        "Home",
+        "overview",
+        "workspace"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-grid",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-002",
+      "name": "Customers & contacts",
+      "category": "CRM",
+      "symbol": "users",
+      "keywords": [
+        "People",
+        "customer records",
+        "contacts"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-users",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-003",
+      "name": "Sales pipeline",
+      "category": "Sales",
+      "symbol": "target",
+      "keywords": [
+        "Deals",
+        "pipeline",
+        "conversion"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-target",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-004",
+      "name": "Analytics",
+      "category": "Analytics",
+      "symbol": "chart",
+      "keywords": [
+        "Reports",
+        "performance",
+        "metrics"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-chart",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-005",
+      "name": "Revenue & payments",
+      "category": "Finance",
+      "symbol": "wallet",
+      "keywords": [
+        "Billing",
+        "cash",
+        "payments"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-wallet",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-006",
+      "name": "Documents",
+      "category": "Documents",
+      "symbol": "file",
+      "keywords": [
+        "Files",
+        "contracts",
+        "records"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-file",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-007",
+      "name": "Intelligence brain",
+      "category": "AI & Intelligence",
+      "symbol": "brain",
+      "keywords": [
+        "AI core",
+        "reasoning",
+        "intelligence"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-brain",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-008",
+      "name": "Notifications",
+      "category": "Notifications",
+      "symbol": "bell",
+      "keywords": [
+        "Alerts",
+        "unread",
+        "notification centre"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-bell",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-009",
+      "name": "Security shield",
+      "category": "Security",
+      "symbol": "shield",
+      "keywords": [
+        "Protection",
+        "trust",
+        "security controls"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-shield",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-010",
+      "name": "Access lock",
+      "category": "Security",
+      "symbol": "lock",
+      "keywords": [
+        "Restricted",
+        "private",
+        "locked"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-lock",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-011",
+      "name": "Search",
+      "category": "Navigation",
+      "symbol": "search",
+      "keywords": [
+        "Find",
+        "lookup",
+        "search"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-search",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-012",
+      "name": "Settings",
+      "category": "Navigation",
+      "symbol": "settings",
+      "keywords": [
+        "Preferences",
+        "configuration"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-settings",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-013",
+      "name": "Success check",
+      "category": "Status",
+      "symbol": "check",
+      "keywords": [
+        "Done",
+        "confirmed",
+        "success"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-check",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-014",
+      "name": "Pending clock",
+      "category": "Status",
+      "symbol": "clock",
+      "keywords": [
+        "Pending",
+        "scheduled",
+        "waiting"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-clock",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-015",
+      "name": "Warning alert",
+      "category": "Status",
+      "symbol": "alert",
+      "keywords": [
+        "Warning",
+        "attention",
+        "risk"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-alert",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-016",
+      "name": "Close / dismiss",
+      "category": "Actions",
+      "symbol": "x",
+      "keywords": [
+        "Close",
+        "remove",
+        "dismiss"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-x",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-017",
+      "name": "Create / add",
+      "category": "Actions",
+      "symbol": "plus",
+      "keywords": [
+        "New",
+        "create",
+        "add"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-plus",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-018",
+      "name": "Email",
+      "category": "Communication",
+      "symbol": "mail",
+      "keywords": [
+        "Email",
+        "correspondence"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-mail",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-019",
+      "name": "Conversation",
+      "category": "Communication",
+      "symbol": "message",
+      "keywords": [
+        "Chat",
+        "conversation",
+        "discussion"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-message",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-020",
+      "name": "AI assistant",
+      "category": "AI & Intelligence",
+      "symbol": "bot",
+      "keywords": [
+        "Assistant",
+        "AI chat"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-bot",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-021",
+      "name": "Automation workflow",
+      "category": "Automation",
+      "symbol": "workflow",
+      "keywords": [
+        "Workflow",
+        "process",
+        "orchestration"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-workflow",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-022",
+      "name": "Upload",
+      "category": "Actions",
+      "symbol": "upload",
+      "keywords": [
+        "Upload",
+        "import",
+        "attach"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-upload",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-023",
+      "name": "Download",
+      "category": "Actions",
+      "symbol": "download",
+      "keywords": [
+        "Download",
+        "export",
+        "save"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-download",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-024",
+      "name": "Refresh",
+      "category": "Actions",
+      "symbol": "refresh",
+      "keywords": [
+        "Reload",
+        "retry",
+        "sync"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-refresh",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-025",
+      "name": "Visibility",
+      "category": "Actions",
+      "symbol": "eye",
+      "keywords": [
+        "View",
+        "preview",
+        "reveal"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-eye",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-026",
+      "name": "Favourite",
+      "category": "Actions",
+      "symbol": "star",
+      "keywords": [
+        "Favourite",
+        "save",
+        "priority"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-star",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-027",
+      "name": "Calendar",
+      "category": "Productivity",
+      "symbol": "calendar",
+      "keywords": [
+        "Date",
+        "schedule",
+        "calendar"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-calendar",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-028",
+      "name": "Linked records",
+      "category": "Actions",
+      "symbol": "link",
+      "keywords": [
+        "Relationship",
+        "linked data"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-link",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-029",
+      "name": "Cloud services",
+      "category": "Platform",
+      "symbol": "cloud",
+      "keywords": [
+        "Cloud",
+        "hosted",
+        "sync"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-cloud",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-030",
+      "name": "Global workspace",
+      "category": "Platform",
+      "symbol": "globe",
+      "keywords": [
+        "Global",
+        "locale",
+        "worldwide"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-globe",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-031",
+      "name": "Partnership",
+      "category": "CRM",
+      "symbol": "handshake",
+      "keywords": [
+        "Relationship",
+        "partner",
+        "agreement"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-handshake",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-032",
+      "name": "Growth trend",
+      "category": "Analytics",
+      "symbol": "trending",
+      "keywords": [
+        "Growth",
+        "increase",
+        "trend"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-trending",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-033",
+      "name": "Verified document",
+      "category": "Documents",
+      "symbol": "file-check",
+      "keywords": [
+        "Verified file",
+        "approved record"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-file-check",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-034",
+      "name": "AI discovery",
+      "category": "AI & Intelligence",
+      "symbol": "wand",
+      "keywords": [
+        "Insight",
+        "discovery",
+        "suggestion"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-wand",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-035",
+      "name": "Activity pulse",
+      "category": "AI & Intelligence",
+      "symbol": "activity",
+      "keywords": [
+        "Live activity",
+        "monitoring"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-activity",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-036",
+      "name": "Compute / model",
+      "category": "AI & Intelligence",
+      "symbol": "cpu",
+      "keywords": [
+        "Model",
+        "processing",
+        "compute"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-cpu",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-037",
+      "name": "Credential key",
+      "category": "Security",
+      "symbol": "key",
+      "keywords": [
+        "Credential",
+        "authentication"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-key",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-038",
+      "name": "Filter results",
+      "category": "Actions",
+      "symbol": "filter",
+      "keywords": [
+        "Filter",
+        "refine",
+        "narrow"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-filter",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-039",
+      "name": "More options",
+      "category": "Actions",
+      "symbol": "more",
+      "keywords": [
+        "More",
+        "overflow",
+        "options"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-more",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-040",
+      "name": "Navigate forward",
+      "category": "Actions",
+      "symbol": "arrow",
+      "keywords": [
+        "Continue",
+        "next",
+        "forward"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-arrow",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-041",
+      "name": "Confirmed state",
+      "category": "Status",
+      "symbol": "check-circle",
+      "keywords": [
+        "Verified",
+        "completed",
+        "confirmed"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-check-circle",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-042",
+      "name": "Issue state",
+      "category": "Status",
+      "symbol": "alert-circle",
+      "keywords": [
+        "Issue",
+        "error",
+        "exception"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-alert-circle",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-043",
+      "name": "Business workspace",
+      "category": "Platform",
+      "symbol": "briefcase",
+      "keywords": [
+        "Business",
+        "organisation",
+        "workspace"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-briefcase",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-044",
+      "name": "Financial calculator",
+      "category": "Finance",
+      "symbol": "calculator",
+      "keywords": [
+        "Calculation",
+        "finance",
+        "totals"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-calculator",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-045",
+      "name": "Organisation",
+      "category": "Platform",
+      "symbol": "building",
+      "keywords": [
+        "Company",
+        "organisation",
+        "tenant"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-building",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-046",
+      "name": "Identity verification",
+      "category": "Security",
+      "symbol": "fingerprint",
+      "keywords": [
+        "Identity",
+        "biometric",
+        "verification"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-fingerprint",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-047",
+      "name": "Customer health",
+      "category": "Customer Success",
+      "symbol": "heart",
+      "keywords": [
+        "Health",
+        "retention",
+        "satisfaction"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-heart",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-048",
+      "name": "Strategy compass",
+      "category": "AI & Intelligence",
+      "symbol": "compass",
+      "keywords": [
+        "Direction",
+        "strategy",
+        "guidance"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-compass",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-049",
+      "name": "Agent execution",
+      "category": "AI & Intelligence",
+      "symbol": "rocket",
+      "keywords": [
+        "Agent",
+        "launch",
+        "execute"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-rocket",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-050",
+      "name": "Intelligence insight",
+      "category": "AI & Intelligence",
+      "symbol": "sparkles",
+      "keywords": [
+        "Insight",
+        "AI suggestion",
+        "highlight"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-sparkles",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-051",
+      "name": "Knowledge base",
+      "category": "Knowledge",
+      "symbol": "book",
+      "keywords": [
+        "Knowledge",
+        "evidence",
+        "documentation"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-book",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-ICO-052",
+      "name": "Developer source",
+      "category": "Developer",
+      "symbol": "code",
+      "keywords": [
+        "Code",
+        "source",
+        "implementation"
+      ],
+      "status": "approved",
+      "source": "assets/icons.svg#rf-code",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-MOT-001",
+      "name": "Circular loading spinner",
+      "category": "Loading & motion",
+      "symbol": "spinner",
+      "keywords": [
+        "Indeterminate operation feedback"
+      ],
+      "status": "approved",
+      "source": "docs/MOTION-SPEC.md",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-MOT-002",
+      "name": "AI activity pulse",
+      "category": "Loading & motion",
+      "symbol": "pulse",
+      "keywords": [
+        "AI is actively processing"
+      ],
+      "status": "approved",
+      "source": "docs/MOTION-SPEC.md",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-MOT-003",
+      "name": "Skeleton content shimmer",
+      "category": "Loading & motion",
+      "symbol": "skeleton",
+      "keywords": [
+        "Content placeholder while loading"
+      ],
+      "status": "approved",
+      "source": "docs/MOTION-SPEC.md",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-MOT-004",
+      "name": "Intelligence orbit",
+      "category": "Loading & motion",
+      "symbol": "orbit",
+      "keywords": [
+        "Subtle background AI activity"
+      ],
+      "status": "approved",
+      "source": "docs/MOTION-SPEC.md",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-MOT-005",
+      "name": "Progress bar",
+      "category": "Loading & motion",
+      "symbol": "progress",
+      "keywords": [
+        "Determinate task progress"
+      ],
+      "status": "proposed",
+      "source": "docs/MOTION-SPEC.md",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Proposed concept; do not use as production-approved artwork."
+    },
+    {
+      "id": "RF-MOT-006",
+      "name": "Success confirmation",
+      "category": "Loading & motion",
+      "symbol": "success",
+      "keywords": [
+        "Short confirmation transition"
+      ],
+      "status": "proposed",
+      "source": "docs/MOTION-SPEC.md",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Proposed concept; do not use as production-approved artwork."
+    },
+    {
+      "id": "RF-MOT-007",
+      "name": "Notification bell ring",
+      "category": "Loading & motion",
+      "symbol": "bell-ring",
+      "keywords": [
+        "Unread notification arrival"
+      ],
+      "status": "proposed",
+      "source": "docs/MOTION-SPEC.md",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Proposed concept; do not use as production-approved artwork."
+    },
+    {
+      "id": "RF-MOT-008",
+      "name": "Soft glow emphasis",
+      "category": "Loading & motion",
+      "symbol": "glow",
+      "keywords": [
+        "Attention without disruptive flashing"
+      ],
+      "status": "proposed",
+      "source": "docs/MOTION-SPEC.md",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Proposed concept; do not use as production-approved artwork."
+    },
+    {
+      "id": "RF-ILL-001",
+      "name": "Empty workspace",
+      "category": "Illustrations",
+      "symbol": "grid",
+      "keywords": [
+        "No records yet; invite first activity"
+      ],
+      "status": "proposed",
+      "source": "PROPOSAL — artwork not yet supplied",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Proposed concept; do not use as production-approved artwork."
+    },
+    {
+      "id": "RF-ILL-002",
+      "name": "No search results",
+      "category": "Illustrations",
+      "symbol": "search",
+      "keywords": [
+        "Search returned no matching records"
+      ],
+      "status": "proposed",
+      "source": "PROPOSAL — artwork not yet supplied",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Proposed concept; do not use as production-approved artwork."
+    },
+    {
+      "id": "RF-ILL-003",
+      "name": "Connection interrupted",
+      "category": "Illustrations",
+      "symbol": "cloud",
+      "keywords": [
+        "Service temporarily unavailable"
+      ],
+      "status": "proposed",
+      "source": "PROPOSAL — artwork not yet supplied",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Proposed concept; do not use as production-approved artwork."
+    },
+    {
+      "id": "RF-ILL-004",
+      "name": "Access restricted",
+      "category": "Illustrations",
+      "symbol": "shield",
+      "keywords": [
+        "Permission-restricted content"
+      ],
+      "status": "proposed",
+      "source": "PROPOSAL — artwork not yet supplied",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Proposed concept; do not use as production-approved artwork."
+    },
+    {
+      "id": "RF-ILL-005",
+      "name": "Welcome onboarding",
+      "category": "Illustrations",
+      "symbol": "sparkles",
+      "keywords": [
+        "First-run workspace introduction"
+      ],
+      "status": "proposed",
+      "source": "PROPOSAL — artwork not yet supplied",
+      "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
+      "notes": "Proposed concept; do not use as production-approved artwork."
+    }
+  ]
+}
