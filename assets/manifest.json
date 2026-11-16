@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "library": "RevenueFlow Official Visual Asset Library",
-  "generated_note": "Initial catalogue metadata. The interactive reference page currently embeds its icon preview paths in index.html; canonical reusable SVG symbols are provided in assets/icons.svg.",
+  "generated_note": "Canonical asset metadata. Website catalogue data and standalone SVG exports are generated from this manifest and the canonical SVG sprite by scripts/build_assets.py.",
   "categories": [
     "Navigation",
     "CRM",
@@ -36,7 +36,7 @@
         "workspace"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-grid",
+      "source": "assets/icons/grid.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -51,7 +51,7 @@
         "contacts"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-users",
+      "source": "assets/icons/users.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -66,7 +66,7 @@
         "conversion"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-target",
+      "source": "assets/icons/target.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -81,7 +81,7 @@
         "metrics"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-chart",
+      "source": "assets/icons/chart.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -96,7 +96,7 @@
         "payments"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-wallet",
+      "source": "assets/icons/wallet.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -111,7 +111,7 @@
         "records"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-file",
+      "source": "assets/icons/file.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -126,7 +126,7 @@
         "intelligence"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-brain",
+      "source": "assets/icons/brain.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -141,7 +141,7 @@
         "notification centre"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-bell",
+      "source": "assets/icons/bell.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -156,7 +156,7 @@
         "security controls"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-shield",
+      "source": "assets/icons/shield.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -171,7 +171,7 @@
         "locked"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-lock",
+      "source": "assets/icons/lock.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -186,7 +186,7 @@
         "search"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-search",
+      "source": "assets/icons/search.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -200,7 +200,7 @@
         "configuration"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-settings",
+      "source": "assets/icons/settings.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -215,7 +215,7 @@
         "success"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-check",
+      "source": "assets/icons/check.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -230,7 +230,7 @@
         "waiting"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-clock",
+      "source": "assets/icons/clock.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -245,7 +245,7 @@
         "risk"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-alert",
+      "source": "assets/icons/alert.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -260,7 +260,7 @@
         "dismiss"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-x",
+      "source": "assets/icons/x.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -275,7 +275,7 @@
         "add"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-plus",
+      "source": "assets/icons/plus.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -289,7 +289,7 @@
         "correspondence"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-mail",
+      "source": "assets/icons/mail.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -304,7 +304,7 @@
         "discussion"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-message",
+      "source": "assets/icons/message.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -318,7 +318,7 @@
         "AI chat"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-bot",
+      "source": "assets/icons/bot.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -333,7 +333,7 @@
         "orchestration"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-workflow",
+      "source": "assets/icons/workflow.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -348,7 +348,7 @@
         "attach"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-upload",
+      "source": "assets/icons/upload.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -363,7 +363,7 @@
         "save"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-download",
+      "source": "assets/icons/download.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -378,7 +378,7 @@
         "sync"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-refresh",
+      "source": "assets/icons/refresh.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -393,7 +393,7 @@
         "reveal"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-eye",
+      "source": "assets/icons/eye.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -408,7 +408,7 @@
         "priority"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-star",
+      "source": "assets/icons/star.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -423,7 +423,7 @@
         "calendar"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-calendar",
+      "source": "assets/icons/calendar.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -437,7 +437,7 @@
         "linked data"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-link",
+      "source": "assets/icons/link.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -452,7 +452,7 @@
         "sync"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-cloud",
+      "source": "assets/icons/cloud.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -467,7 +467,7 @@
         "worldwide"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-globe",
+      "source": "assets/icons/globe.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -482,7 +482,7 @@
         "agreement"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-handshake",
+      "source": "assets/icons/handshake.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -497,7 +497,7 @@
         "trend"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-trending",
+      "source": "assets/icons/trending.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -511,7 +511,7 @@
         "approved record"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-file-check",
+      "source": "assets/icons/file-check.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -526,7 +526,7 @@
         "suggestion"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-wand",
+      "source": "assets/icons/wand.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -540,7 +540,7 @@
         "monitoring"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-activity",
+      "source": "assets/icons/activity.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -555,7 +555,7 @@
         "compute"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-cpu",
+      "source": "assets/icons/cpu.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -569,7 +569,7 @@
         "authentication"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-key",
+      "source": "assets/icons/key.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -584,7 +584,7 @@
         "narrow"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-filter",
+      "source": "assets/icons/filter.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -599,7 +599,7 @@
         "options"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-more",
+      "source": "assets/icons/more.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -614,7 +614,7 @@
         "forward"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-arrow",
+      "source": "assets/icons/arrow.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -629,7 +629,7 @@
         "confirmed"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-check-circle",
+      "source": "assets/icons/check-circle.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -644,7 +644,7 @@
         "exception"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-alert-circle",
+      "source": "assets/icons/alert-circle.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -659,7 +659,7 @@
         "workspace"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-briefcase",
+      "source": "assets/icons/briefcase.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -674,7 +674,7 @@
         "totals"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-calculator",
+      "source": "assets/icons/calculator.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -689,7 +689,7 @@
         "tenant"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-building",
+      "source": "assets/icons/building.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -704,7 +704,7 @@
         "verification"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-fingerprint",
+      "source": "assets/icons/fingerprint.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -719,7 +719,7 @@
         "satisfaction"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-heart",
+      "source": "assets/icons/heart.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -734,7 +734,7 @@
         "guidance"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-compass",
+      "source": "assets/icons/compass.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -749,7 +749,7 @@
         "execute"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-rocket",
+      "source": "assets/icons/rocket.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -764,7 +764,7 @@
         "highlight"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-sparkles",
+      "source": "assets/icons/sparkles.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -779,7 +779,7 @@
         "documentation"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-book",
+      "source": "assets/icons/book.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -794,7 +794,7 @@
         "implementation"
       ],
       "status": "approved",
-      "source": "assets/icons.svg#rf-code",
+      "source": "assets/icons/code.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
     },
@@ -845,7 +845,7 @@
       "keywords": [
         "Subtle background AI activity"
       ],
-      "status": "approved",
+      "status": "proposed",
       "source": "docs/MOTION-SPEC.md",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Approved catalogue reference; validate contextual fit in the consuming interface."
@@ -884,7 +884,7 @@
       "keywords": [
         "Unread notification arrival"
       ],
-      "status": "proposed",
+      "status": "approved",
       "source": "docs/MOTION-SPEC.md",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Proposed concept; do not use as production-approved artwork."
@@ -897,7 +897,7 @@
       "keywords": [
         "Attention without disruptive flashing"
       ],
-      "status": "proposed",
+      "status": "approved",
       "source": "docs/MOTION-SPEC.md",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Proposed concept; do not use as production-approved artwork."
