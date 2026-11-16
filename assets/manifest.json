@@ -911,9 +911,9 @@
         "No records yet; invite first activity"
       ],
       "status": "proposed",
-      "source": "PROPOSAL — artwork not yet supplied",
+      "source": "assets/illustrations/empty-workspace.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
-      "notes": "Proposed concept; do not use as production-approved artwork."
+      "notes": "Original vector artwork is present; proposed pending explicit design/product approval."
     },
     {
       "id": "RF-ILL-002",
@@ -924,9 +924,9 @@
         "Search returned no matching records"
       ],
       "status": "proposed",
-      "source": "PROPOSAL — artwork not yet supplied",
+      "source": "assets/illustrations/no-search-results.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
-      "notes": "Proposed concept; do not use as production-approved artwork."
+      "notes": "Original vector artwork is present; proposed pending explicit design/product approval."
     },
     {
       "id": "RF-ILL-003",
@@ -937,9 +937,9 @@
         "Service temporarily unavailable"
       ],
       "status": "proposed",
-      "source": "PROPOSAL — artwork not yet supplied",
+      "source": "assets/illustrations/connection-interrupted.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
-      "notes": "Proposed concept; do not use as production-approved artwork."
+      "notes": "Original vector artwork is present; proposed pending explicit design/product approval."
     },
     {
       "id": "RF-ILL-004",
@@ -950,9 +950,9 @@
         "Permission-restricted content"
       ],
       "status": "proposed",
-      "source": "PROPOSAL — artwork not yet supplied",
+      "source": "assets/illustrations/access-restricted.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
-      "notes": "Proposed concept; do not use as production-approved artwork."
+      "notes": "Original vector artwork is present; proposed pending explicit design/product approval."
     },
     {
       "id": "RF-ILL-005",
@@ -963,9 +963,9 @@
         "First-run workspace introduction"
       ],
       "status": "proposed",
-      "source": "PROPOSAL — artwork not yet supplied",
+      "source": "assets/illustrations/welcome-onboarding.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
-      "notes": "Proposed concept; do not use as production-approved artwork."
+      "notes": "Original vector artwork is present; proposed pending explicit design/product approval."
     }
   ]
 }
