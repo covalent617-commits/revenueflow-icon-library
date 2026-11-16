@@ -29,6 +29,7 @@
 <script>
 const {icons:specs,motions:motionAssets,illustrations:illustrationAssets,iconSvg,illustrationSvg}=window.RF_CATALOGUE;
 const assets=[...specs,...motionAssets,...illustrationAssets];
+const categories=['All assets',...new Set(specs.map(x=>x[2])),'Loading & motion','Illustrations'];
 const state={category:'All assets',query:'',fav:false,sort:'name',selected:null};
 let favs=new Set();try{favs=new Set(JSON.parse(localStorage.getItem('rf-favourites')||'[]'))}catch{}
 const svg=(key)=>{const raw=iconSvg[key]||iconSvg.sparkles;return raw.replace('<svg ','<svg aria-hidden="true" ')};
