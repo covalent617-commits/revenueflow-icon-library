@@ -19,7 +19,7 @@ The central source of truth for RevenueFlow icons, motion, loading states, illus
 Search by name, category, keyword or ID. Confirm the entry is marked `approved` before production use. Use the manifest's source path or matching sprite symbol. Preserve meaning and accessible labelling. If the right approved asset does not exist, propose it instead of substituting a random asset.
 
 ## Local preview
-Open `index.html` in a modern browser. The site uses local scripts and assets; no external icon CDN or runtime build system is required.
+Run `python -m http.server 8080` from the repository root, then open `http://localhost:8080`. This avoids local-file clipboard restrictions. The site uses local scripts and assets; no external icon CDN or runtime build system is required.
 
 ## Validate after changes
 ```bash
