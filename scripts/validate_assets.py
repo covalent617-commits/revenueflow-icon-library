@@ -11,6 +11,8 @@ manifest = json.loads((ROOT / "assets/manifest.json").read_text(encoding="utf-8"
 assets = manifest.get("assets", [])
 ids = [a.get("id") for a in assets]
 assert len(ids) == len(set(ids)), "Duplicate stable asset IDs"
+assert all(a.get("category") in manifest.get("categories", []) for a in assets), "Unknown asset category"
+assert all(a.get("name") and a.get("source") and a.get("accessibility") for a in assets), "Asset missing required metadata"
 assert all(ids), "An asset is missing its ID"
 allowed = {"approved", "proposed", "experimental", "deprecated"}
 assert all(a.get("status") in allowed for a in assets), "Unknown approval status"
