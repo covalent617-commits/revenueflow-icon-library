@@ -3,6 +3,9 @@
 from __future__ import annotations
 import json
 import re
+import shutil
+import subprocess
+import tempfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -49,6 +52,18 @@ for a in illustrations:
     assert catalogue["illustrationSvg"][a["symbol"]] == (ROOT / a["source"]).read_text(encoding="utf-8").strip(), f"Stale illustration preview: {a['id']}"
 html = (ROOT / "index.html").read_text(encoding="utf-8")
 assert 'src="assets/catalogue-data.js"' in html, "Website does not load canonical catalogue data"
+assert "const categories=" in html, "Website category navigation is not initialised"
+node = shutil.which("node")
+if node:
+    scripts = re.findall(r"<script(?:\\s[^>]*)?>([\\s\\S]*?)</script>", html)
+    inline_scripts = [script for script in scripts if script.strip()]
+    with tempfile.NamedTemporaryFile("w", suffix=".js", encoding="utf-8", delete=False) as handle:
+        handle.write("\\n".join(inline_scripts))
+        temp_path = handle.name
+    try:
+        subprocess.run([node, "--check", temp_path], check=True, capture_output=True, text=True)
+    finally:
+        Path(temp_path).unlink(missing_ok=True)
 css = (ROOT / "assets/motion.css").read_text(encoding="utf-8").replace(" ", "")
 assert "@media(prefers-reduced-motion:reduce)" in css, "Reduced-motion fallback is missing"
 json.loads((ROOT / "tokens/design-tokens.json").read_text(encoding="utf-8"))
