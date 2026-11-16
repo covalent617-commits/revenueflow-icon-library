@@ -55,10 +55,10 @@ assert 'src="assets/catalogue-data.js"' in html, "Website does not load canonica
 assert "const categories=" in html, "Website category navigation is not initialised"
 node = shutil.which("node")
 if node:
-    scripts = re.findall(r"<script(?:\\s[^>]*)?>([\\s\\S]*?)</script>", html)
+    scripts = re.findall(r"<script(?:\s[^>]*)?>([\s\S]*?)</script>", html)
     inline_scripts = [script for script in scripts if script.strip()]
     with tempfile.NamedTemporaryFile("w", suffix=".js", encoding="utf-8", delete=False) as handle:
-        handle.write("\\n".join(inline_scripts))
+        handle.write("\n".join(inline_scripts))
         temp_path = handle.name
     try:
         subprocess.run([node, "--check", temp_path], check=True, capture_output=True, text=True)
