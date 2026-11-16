@@ -35,6 +35,16 @@ assert catalogue["icons"] == expected("RF-ICO-"), "Website icon data is stale"
 assert catalogue["motions"] == expected("RF-MOT-"), "Website motion data is stale"
 assert catalogue["illustrations"] == expected("RF-ILL-"), "Website illustration data is stale"
 assert set(catalogue["iconSvg"]) == {a["symbol"] for a in icons}, "Website SVG export map is incomplete"
+for a in icons:
+    assert catalogue["iconSvg"][a["symbol"]] == (ROOT / a["source"]).read_text(encoding="utf-8").strip(), f"Stale icon preview: {a['id']}"
+illustrations = [a for a in assets if a["id"].startswith("RF-ILL-")]
+for a in illustrations:
+    path = ROOT / a["source"]
+    assert path.is_file(), f"Missing illustration artwork: {a['source']}"
+    ET.parse(path)
+assert set(catalogue["illustrationSvg"]) == {a["symbol"] for a in illustrations}, "Website illustration export map is incomplete"
+for a in illustrations:
+    assert catalogue["illustrationSvg"][a["symbol"]] == (ROOT / a["source"]).read_text(encoding="utf-8").strip(), f"Stale illustration preview: {a['id']}"
 html = (ROOT / "index.html").read_text(encoding="utf-8")
 assert 'src="assets/catalogue-data.js"' in html, "Website does not load canonical catalogue data"
 css = (ROOT / "assets/motion.css").read_text(encoding="utf-8").replace(" ", "")
