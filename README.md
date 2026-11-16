@@ -38,3 +38,8 @@ The website remains a reference library, not proof of production integration. Th
 
 ## Current scope
 79 icon references, 8 motion references with mixed approval states, and 5 illustration concepts. The manifest is the exact source of status and metadata.
+
+
+## GitHub Pages deployment
+
+The published site is served from the repository root at `https://covalent617-commits.github.io/revenueflow-icon-library/`. The `.github/workflows/pages.yml` workflow deploys the root directory on every push to `main` and can also be run manually from the Actions tab. If the URL returns 404 before the first successful deployment, check that GitHub Pages is enabled for this repository with **Build and deployment → Source: GitHub Actions**.
