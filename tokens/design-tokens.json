@@ -1,0 +1,77 @@
+{
+  "version": "1.0.0",
+  "description": "Initial reference tokens for RevenueFlow visual asset library. Validate against the main product design system before production adoption.",
+  "color": {
+    "canvas": {
+      "value": "#090D18",
+      "role": "Application background"
+    },
+    "surface.primary": {
+      "value": "#101827",
+      "role": "Primary surface"
+    },
+    "surface.secondary": {
+      "value": "#141F31",
+      "role": "Elevated surface"
+    },
+    "border.subtle": {
+      "value": "#26344A",
+      "role": "Default divider and border"
+    },
+    "text.primary": {
+      "value": "#EDF3FF",
+      "role": "Primary text"
+    },
+    "text.secondary": {
+      "value": "#91A2BD",
+      "role": "Secondary text"
+    },
+    "accent.primary": {
+      "value": "#8B9CFF",
+      "role": "Primary interactive accent"
+    },
+    "accent.info": {
+      "value": "#59D7E8",
+      "role": "Information and intelligence"
+    },
+    "status.success": {
+      "value": "#5ED6AE",
+      "role": "Success state"
+    },
+    "status.warning": {
+      "value": "#F5BD68",
+      "role": "Warning state"
+    },
+    "status.danger": {
+      "value": "#FF7D8B",
+      "role": "Error and danger state"
+    }
+  },
+  "radius": {
+    "small": "9px",
+    "medium": "12px",
+    "large": "16px",
+    "pill": "999px"
+  },
+  "spacing": {
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "5": "20px",
+    "6": "24px",
+    "8": "32px"
+  },
+  "iconSizes": {
+    "small": "16px",
+    "default": "20px",
+    "large": "24px",
+    "feature": "32px"
+  },
+  "motion": {
+    "fast": "120ms",
+    "normal": "180ms",
+    "slow": "280ms",
+    "reducedMotion": "Disable non-essential transitions and animations"
+  }
+}
