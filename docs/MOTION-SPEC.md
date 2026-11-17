@@ -38,3 +38,28 @@ All eight patterns have reference CSS and catalogue previews. Proposed patterns 
 - Use `aria-live` for meaningful status text, not decorative animation.
 - Do not announce animation frames to assistive technology.
 - Never imply an operation succeeded until the backend confirms success.
+
+## Signature motion: Master Compass Loader (RF-MOT-009)
+
+**Status: Proposed — visible in the library preview, not production-approved.**
+
+This is a signature RevenueFlow loading/activity motif, not a generic compass glyph. It must show two simultaneous, independent movements:
+
+1. **Axial rotation:** the compass rose spins around its own centre.
+2. **Orbital revolution:** the compass assembly travels around a separate, fixed central orbital axis.
+
+The centre hub and orbital track establish the fixed reference axis. The orbiting compass satellite follows the circular path while its rose independently spins. The two animations must remain independently controllable; do not combine them into one rotation or fake the orbital movement with a simple spinner.
+
+### Reference implementation
+
+`assets/motion.css` provides `.rf-master-compass`, `.rf-master-compass__orbit`, `.rf-master-compass__rose`, `.rf-master-compass__hub` and `.rf-master-compass__track`.
+
+The catalogue preview uses a metallic silver/blue treatment on the library's dark navy surface. Keep the silhouette crisp at compact sizes and do not let the animation imply measured task progress or successful completion.
+
+### Accessibility and runtime rules
+- Respect `prefers-reduced-motion: reduce`; freeze both moving layers while retaining a legible static compass.
+- Give meaningful instances an accessible name such as “RevenueFlow compass activity”; hide purely decorative instances from assistive technology.
+- Stop both animations when the associated operation ends or the component leaves the active state.
+- Do not use as a percentage/progress indicator.
+- Keep axial speed and orbital speed as separate CSS animation controls.
+- Status remains **proposed** until explicitly approved through the library's asset governance process.

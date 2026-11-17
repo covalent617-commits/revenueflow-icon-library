@@ -785,6 +785,15 @@ window.RF_CATALOGUE = {
       "Attention without disruptive flashing",
       "approved",
       "docs/MOTION-SPEC.md"
+    ],
+    [
+      "RF-MOT-009",
+      "Master compass loader — axial rotation + orbital revolution",
+      "Loading & motion",
+      "master-compass",
+      "RevenueFlow signature loader, dual-axis motion, rotating compass rose, orbital revolution, strategic intelligence activity",
+      "proposed",
+      "assets/motion.css"
     ]
   ],
   "illustrations": [

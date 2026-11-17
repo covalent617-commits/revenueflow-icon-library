@@ -1374,6 +1374,23 @@
       "source": "assets/icons/flag-risk.svg",
       "accessibility": "Decorative icons must be hidden from assistive technology; meaningful icons require an accessible name in the consuming UI.",
       "notes": "Existing RevenueFlow application icon consolidated into the official library; validate contextual fit in the consuming interface."
+    },
+    {
+      "id": "RF-MOT-009",
+      "name": "Master compass loader — axial rotation + orbital revolution",
+      "category": "Loading & motion",
+      "symbol": "master-compass",
+      "keywords": [
+        "RevenueFlow signature loader",
+        "dual-axis motion",
+        "rotating compass rose",
+        "orbital revolution",
+        "strategic intelligence activity"
+      ],
+      "status": "proposed",
+      "source": "assets/motion.css",
+      "accessibility": "The preview must have a concise accessible name when meaningful; decorative instances must be hidden from assistive technology. Respect prefers-reduced-motion and provide a static compass fallback.",
+      "notes": "Signature RevenueFlow motion concept. A compass rose rotates continuously around its own centre while the compass assembly revolves around a separate fixed central orbital axis. These are two simultaneous, independently controlled motions. Proposed for review; do not use as production-approved artwork until explicitly approved."
     }
   ]
 }
