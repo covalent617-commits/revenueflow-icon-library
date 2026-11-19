@@ -1389,8 +1389,8 @@
       ],
       "status": "approved",
       "source": "assets/motion.css",
-      "accessibility": "Use a concise accessible name such as RevenueFlow ecosystem synchronising. Hide decorative instances from assistive technology. Respect prefers-reduced-motion and provide a static fallback.",
-      "notes": "Approved signature loading motif. A central RevenueFlow mark is surrounded by three lightweight orbital module nodes representing connected ecosystem capabilities. Use only as an indeterminate loading/activity indicator; do not imply measured progress or successful completion."
+      "accessibility": "Provide an accessible name such as RevenueFlow ecosystem synchronising for meaningful instances; hide decorative instances from assistive technology. Respect prefers-reduced-motion and provide a static fallback.",
+      "notes": "Approved signature loading motif. Three connected module nodes travel around a shared centre on three orbit paths; no central logo or central graphic. Use as an indeterminate loading/activity indicator only; do not imply measured progress or successful completion."
     }
   ]
 }
