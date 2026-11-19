@@ -39,7 +39,7 @@ Its visual grammar is deliberately simple:
 1. The centre remains intentionally empty so the moving module system is the focus; do not place a logo or graphic in the middle.
 2. Three thin orbital paths express connected systems working together.
 3. Three small module nodes represent ecosystem capabilities: partnership, communication and configuration.
-4. The complete loader also revolves around its central vertical axis in a smooth 3D turn, while the three orbital paths continue moving independently at different speeds.
+4. The complete loader spins in its own plane around the centre (a full 360° axial rotation); it must never tilt edge-on or collapse into a line. The three orbital paths continue moving independently at different speeds.
 5. Each module glyph counter-rotates to remain legible; the centre stays empty throughout the turn.
 
 Use the icon at compact sizes beside existing loading/status text. The official visual library also provides a large, dedicated live preview at the bottom of its catalogue page for inspection. Do not add dashboard panels, locks, security imagery, large background artwork or decorative containers around it. The loader must not replace useful loading text on longer operations.
