@@ -29,7 +29,7 @@ for a in icons:
     assert path.is_file(), f"Missing standalone SVG: {a['source']}"
     ET.parse(path)
 catalogue_text = (ROOT / "assets/catalogue-data.js").read_text(encoding="utf-8")
-match = re.search(r"window\.RF_CATALOGUE = (\{[\s\S]*\});\s*$", catalogue_text)
+match = re.search(r"window\\.RF_CATALOGUE = (\\{[\\s\\S]*\\});\\s*$", catalogue_text)
 assert match, "Generated catalogue JS has invalid wrapper"
 catalogue = json.loads(match.group(1))
 def expected(prefix):
@@ -55,10 +55,10 @@ assert 'src="assets/catalogue-data.js"' in html, "Website does not load canonica
 assert "const categories=" in html, "Website category navigation is not initialised"
 node = shutil.which("node")
 if node:
-    scripts = re.findall(r"<script(?:\s[^>]*)?>([\s\S]*?)</script>", html)
+    scripts = re.findall(r"<script(?:\\s[^>]*)?>([\\s\\S]*?)</script>", html)
     inline_scripts = [script for script in scripts if script.strip()]
     with tempfile.NamedTemporaryFile("w", suffix=".js", encoding="utf-8", delete=False) as handle:
-        handle.write("\n".join(inline_scripts))
+        handle.write("\\n".join(inline_scripts))
         temp_path = handle.name
     try:
         subprocess.run([node, "--check", temp_path], check=True, capture_output=True, text=True)
@@ -71,8 +71,8 @@ for selector in (".rf-spinner", ".rf-ai-pulse", ".rf-skeleton", ".rf-orbit", ".r
 assert ".rf-ecosystem-loader__core" not in css, "Ecosystem loader must keep its centre empty"
 assert "rf-ecosystem-loader__core" not in html, "Ecosystem loader preview must not contain a centre logo"
 assert "ecosystem-showcase__stage" in html and "rf-ecosystem-loader--showcase" in html, "Large bottom ecosystem preview is missing"
-orbit_nodes = re.findall(r'rf-ecosystem-loader__orbit rf-ecosystem-loader__orbit--[a-f]', html)
-module_nodes = re.findall(r'rf-ecosystem-loader__module rf-ecosystem-loader__module--(brain|radar|network|memory|discovery|orchestration)', html)
+orbit_nodes = re.findall(r'rf-ecosystem-loader__orbit--[a-f](?=["\\s])', html)
+module_nodes = re.findall(r'rf-ecosystem-loader__module--(brain|radar|network|memory|discovery|orchestration)(?=["\\s])', html)
 assert len(orbit_nodes) == 6, "Ecosystem preview must contain six independent orbital paths"
 assert len(module_nodes) == 6 and set(module_nodes) == {"brain", "radar", "network", "memory", "discovery", "orchestration"}, "Ecosystem preview capability nodes are incomplete"
 for suffix in "abcdef":
