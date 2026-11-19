@@ -788,11 +788,11 @@ window.RF_CATALOGUE = {
     ],
     [
       "RF-MOT-009",
-      "Master compass loader — axial rotation + orbital revolution",
+      "Ecosystem synchronisation loader",
       "Loading & motion",
-      "master-compass",
-      "RevenueFlow signature loader, dual-axis motion, rotating compass rose, orbital revolution, strategic intelligence activity",
-      "proposed",
+      "ecosystem-loader",
+      "RevenueFlow ecosystem loading, module synchronisation, connected capabilities, ecosystem activity, unified platform",
+      "approved",
       "assets/motion.css"
     ]
   ],
