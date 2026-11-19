@@ -2,16 +2,26 @@
 @keyframes rf-spin{to{transform:rotate(360deg)}} @keyframes rf-pulse{50%{opacity:.35;transform:scale(.72)}} @keyframes rf-shimmer{to{background-position:-200% 0}} @keyframes rf-orbit-rotate{to{transform:rotate(360deg)}} @keyframes rf-success-pop{0%{transform:scale(.72);opacity:0}70%{transform:scale(1.08);opacity:1}100%{transform:scale(1);opacity:1}} @keyframes rf-bell-ring{0%,100%{transform:rotate(0)}15%{transform:rotate(12deg)}30%{transform:rotate(-10deg)}45%{transform:rotate(7deg)}60%{transform:rotate(-4deg)}} @keyframes rf-soft-glow{0%,100%{filter:drop-shadow(0 0 0 transparent)}50%{filter:drop-shadow(0 0 7px currentColor)}}
 .rf-spinner{width:1.25rem;aspect-ratio:1;border:.16rem solid currentColor;border-right-color:transparent;border-radius:50%;animation:rf-spin .8s linear infinite}.rf-ai-pulse{width:.7rem;aspect-ratio:1;border-radius:50%;background:currentColor;animation:rf-pulse 1.4s ease-in-out infinite}.rf-skeleton{display:block;background:linear-gradient(90deg,#26344a 25%,#657492 50%,#26344a 75%);background-size:200% 100%;border-radius:.5rem;animation:rf-shimmer 1.5s ease-in-out infinite}.rf-orbit{width:1.6rem;aspect-ratio:1;border:1px solid currentColor;border-radius:50%;position:relative;animation:rf-orbit-rotate 4s linear infinite}.rf-orbit::after{content:"";position:absolute;top:-.2rem;left:calc(50% - .2rem);width:.4rem;aspect-ratio:1;border-radius:50%;background:#59d7e8;box-shadow:0 0 10px #59d7e8}.rf-progress{height:.35rem;width:100%;overflow:hidden;border-radius:999px;background:currentColor;opacity:.25}.rf-progress>span{display:block;width:var(--rf-progress-value,0%);height:100%;border-radius:inherit;background:currentColor;opacity:1;transition:width .2s ease}.rf-success{display:inline-flex;animation:rf-success-pop .32s ease-out both}.rf-bell-ring{display:inline-flex;transform-origin:top center;animation:rf-bell-ring .8s ease}.rf-soft-glow{display:inline-flex;animation:rf-soft-glow 2s ease-in-out infinite}
 @media(prefers-reduced-motion:reduce){.rf-spinner,.rf-ai-pulse,.rf-skeleton,.rf-orbit,.rf-success,.rf-bell-ring,.rf-soft-glow{animation:none!important}.rf-spinner{border-right-color:currentColor}.rf-ai-pulse{opacity:1}.rf-skeleton{background:#26344a}.rf-progress>span{transition:none}}
-/* RF-MOT-009: the compass STAR itself revolves around a fixed centre AND spins on its own axis.
-   Orbital rotation moves the star's centre; nested counter-rotation cancels orbital orientation;
-   the final animation supplies independent axial spin. No rotating ring or satellite housing. */
-@keyframes rf-master-compass-revolution{to{transform:rotate(360deg)}}
-@keyframes rf-master-compass-counter-revolution{to{transform:rotate(-360deg)}}
-@keyframes rf-master-compass-axial-rotation{to{transform:rotate(360deg)}}
-.rf-master-compass{--rf-compass-size:280px;--rf-orbit-radius:104px;position:relative;display:inline-block;width:var(--rf-compass-size);height:var(--rf-compass-size);color:#e8f1ff;isolation:isolate}
-.rf-master-compass__centre{position:absolute;left:50%;top:50%;width:12px;height:12px;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff,#9fb6d5 55%,#536a8a);box-shadow:0 0 0 5px #9db9d91a,0 0 22px #8fc8ff66;z-index:2}
-.rf-master-compass__orbit{position:absolute;inset:0;animation:rf-master-compass-revolution 5.6s linear infinite}
-.rf-master-compass__counter{position:absolute;left:50%;top:calc(50% - var(--rf-orbit-radius));width:0;height:0;animation:rf-master-compass-counter-revolution 5.6s linear infinite}
-.rf-master-compass__star{position:absolute;width:76px;height:76px;left:-38px;top:-38px;overflow:visible;transform-origin:50% 50%;animation:rf-master-compass-axial-rotation 2.8s linear infinite;filter:drop-shadow(0 0 13px #82baff88) drop-shadow(0 3px 4px #0009)}
-.rf-master-compass__star .north{fill:url(#rfCompassNorth);stroke:#f5f9ff;stroke-width:.55}.rf-master-compass__star .south{fill:url(#rfCompassSouth);stroke:#a9bfdc;stroke-width:.55}.rf-master-compass__star .fine{fill:none;stroke:#e5efff;stroke-width:.5;opacity:.9}
-@media(prefers-reduced-motion:reduce){.rf-master-compass__orbit,.rf-master-compass__counter,.rf-master-compass__star{animation:none!important}}
+/* RF-MOT-009: RevenueFlow ecosystem synchronisation loader.
+   Compact icon-only treatment: central brand mark + three connected module nodes.
+   No page artwork, dashboard backdrop, security illustration or decorative panel. */
+@keyframes rf-ecosystem-orbit-a{to{transform:rotate(360deg)}}
+@keyframes rf-ecosystem-orbit-b{to{transform:rotate(-360deg)}}
+@keyframes rf-ecosystem-orbit-c{to{transform:rotate(360deg)}}
+@keyframes rf-ecosystem-core-breathe{0%,100%{filter:drop-shadow(0 0 5px #7ea7ff55);transform:scale(1)}50%{filter:drop-shadow(0 0 11px #6fd8ff99);transform:scale(1.045)}}
+.rf-ecosystem-loader{--rf-ecosystem-size:5.5rem;position:relative;display:inline-grid;place-items:center;width:var(--rf-ecosystem-size);height:var(--rf-ecosystem-size);color:#eaf2ff;isolation:isolate;vertical-align:middle}
+.rf-ecosystem-loader__orbit{position:absolute;left:50%;top:50%;width:88%;height:43%;border:1.4px solid #6f9fe8a8;border-radius:50%;transform-origin:center;box-shadow:0 0 8px #4c8bff20}
+.rf-ecosystem-loader__orbit--a{animation:rf-ecosystem-orbit-a 6.8s linear infinite}
+.rf-ecosystem-loader__orbit--b{width:88%;height:43%;transform:translate(-50%,-50%) rotate(60deg);animation:rf-ecosystem-orbit-b 8.4s linear infinite}
+.rf-ecosystem-loader__orbit--c{width:88%;height:43%;transform:translate(-50%,-50%) rotate(-60deg);animation:rf-ecosystem-orbit-c 9.6s linear infinite}
+.rf-ecosystem-loader__orbit--a{transform:translate(-50%,-50%) rotate(0deg)}
+.rf-ecosystem-loader__module{position:absolute;left:50%;top:50%;display:grid;place-items:center;width:1.18rem;height:1.18rem;margin:-.59rem;border:1px solid #8abaff;border-radius:50%;background:radial-gradient(circle at 35% 28%,#a9d8ff,#477fe0 72%);color:#f7fbff;box-shadow:0 0 12px #4d91ff88}
+.rf-ecosystem-loader__module svg{width:66%;height:66%;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.rf-ecosystem-loader__module--handshake{transform:translate(-50%,-50%) translateY(-2.38rem)}
+.rf-ecosystem-loader__module--announce{transform:translate(-50%,-50%) translate(-2.05rem,1.2rem)}
+.rf-ecosystem-loader__module--settings{transform:translate(-50%,-50%) translate(2.05rem,1.2rem)}
+.rf-ecosystem-loader__core{position:relative;z-index:2;display:grid;place-items:center;width:1.55rem;height:1.55rem;animation:rf-ecosystem-core-breathe 2.4s ease-in-out infinite}
+.rf-ecosystem-loader__core svg{width:100%;height:100%;overflow:visible}
+.rf-ecosystem-loader__core .outer{fill:none;stroke:#a9c9ff;stroke-width:5}
+.rf-ecosystem-loader__core .inner{fill:#8db8ff;stroke:#e8f2ff;stroke-width:1.4}
+@media(prefers-reduced-motion:reduce){.rf-ecosystem-loader__orbit,.rf-ecosystem-loader__core{animation:none!important}.rf-ecosystem-loader__core{filter:drop-shadow(0 0 6px #7ea7ff66)}}
