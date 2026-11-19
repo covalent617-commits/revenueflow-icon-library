@@ -1377,20 +1377,20 @@
     },
     {
       "id": "RF-MOT-009",
-      "name": "Master compass loader — axial rotation + orbital revolution",
+      "name": "Ecosystem synchronisation loader",
       "category": "Loading & motion",
-      "symbol": "master-compass",
+      "symbol": "ecosystem-loader",
       "keywords": [
-        "RevenueFlow signature loader",
-        "dual-axis motion",
-        "rotating compass rose",
-        "orbital revolution",
-        "strategic intelligence activity"
+        "RevenueFlow ecosystem loading",
+        "module synchronisation",
+        "connected capabilities",
+        "ecosystem activity",
+        "unified platform"
       ],
-      "status": "proposed",
+      "status": "approved",
       "source": "assets/motion.css",
-      "accessibility": "The preview must have a concise accessible name when meaningful; decorative instances must be hidden from assistive technology. Respect prefers-reduced-motion and provide a static compass fallback.",
-      "notes": "Signature RevenueFlow motion concept. A compass rose rotates continuously around its own centre while the compass assembly revolves around a separate fixed central orbital axis. These are two simultaneous, independently controlled motions. Proposed for review; do not use as production-approved artwork until explicitly approved."
+      "accessibility": "Use a concise accessible name such as RevenueFlow ecosystem synchronising. Hide decorative instances from assistive technology. Respect prefers-reduced-motion and provide a static fallback.",
+      "notes": "Approved signature loading motif. A central RevenueFlow mark is surrounded by three lightweight orbital module nodes representing connected ecosystem capabilities. Use only as an indeterminate loading/activity indicator; do not imply measured progress or successful completion."
     }
   ]
 }
