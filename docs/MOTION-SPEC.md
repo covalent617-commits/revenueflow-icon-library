@@ -37,10 +37,10 @@ The loader is a self-contained icon for the existing places where RevenueFlow is
 
 Its visual grammar is deliberately simple:
 1. The centre remains intentionally empty so the moving module system is the focus; do not place a logo or graphic in the middle.
-2. Three thin orbital paths express connected systems working together.
-3. Three small module nodes represent ecosystem capabilities: partnership, communication and configuration.
-4. The loader uses three intersecting circular orbital planes tilted around different 3D axes, with perspective and depth cues. Each module travels independently around its own plane, visibly passing in front of and behind the others. The overall frame does not spin as a flat disc, and no orbit may collapse edge-on into a line.
-5. Each module glyph counter-rotates to remain legible; the centre stays empty throughout the turn.
+2. Six intersecting orbital paths create a layered, dimensional ecosystem rather than three generic rings.
+3. Six visible capability nodes represent Brain / Reasoning, Radar / Detection, Network / Collective connection, Memory / Knowledge, Discovery / Research and Orchestration / Agents. These are intelligence concepts, not links to individual product applications.
+4. Each path is an independent circular plane tilted around a distinct 3D axis, with perspective and depth cues. Nodes travel with their own planes, visibly moving through front and rear depth. The overall frame must not spin as a flat disc, and no orbit may collapse edge-on into a line.
+5. Each glyph counter-rotates to remain legible. The six paths use varied radii and speeds to create depth without filling the intentionally empty centre.
 
 Use the icon at compact sizes beside existing loading/status text. The official visual library also provides a large, dedicated live preview at the bottom of its catalogue page for inspection. Do not add dashboard panels, locks, security imagery, large background artwork or decorative containers around it. The loader must not replace useful loading text on longer operations.
 
