@@ -71,8 +71,8 @@ for selector in (".rf-spinner", ".rf-ai-pulse", ".rf-skeleton", ".rf-orbit", ".r
 assert ".rf-ecosystem-loader__core" not in css, "Ecosystem loader must keep its centre empty"
 assert "rf-ecosystem-loader__core" not in html, "Ecosystem loader preview must not contain a centre logo"
 assert "ecosystem-showcase__stage" in html and "rf-ecosystem-loader--showcase" in html, "Large bottom ecosystem preview is missing"
-orbit_nodes = re.findall(r'rf-ecosystem-loader__orbit--[a-f](?=["\s])', html)
-module_nodes = re.findall(r'rf-ecosystem-loader__module--(brain|radar|network|memory|discovery|orchestration)(?=["\\s])', html)
+orbit_nodes = re.findall(r'rf-ecosystem-loader__orbit--[a-f]', html)
+module_nodes = re.findall(r'rf-ecosystem-loader__module--(brain|radar|network|memory|discovery|orchestration)', html)
 assert len(orbit_nodes) == 6, "Ecosystem preview must contain six independent orbital paths"
 assert len(module_nodes) == 6 and set(module_nodes) == {"brain", "radar", "network", "memory", "discovery", "orchestration"}, "Ecosystem preview capability nodes are incomplete"
 for suffix in "abcdef":
