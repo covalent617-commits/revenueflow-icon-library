@@ -7,21 +7,38 @@
 @keyframes rf-ecosystem-orbit-a{from{transform:rotateX(68deg) rotateZ(0deg)}to{transform:rotateX(428deg) rotateZ(360deg)}}
 @keyframes rf-ecosystem-orbit-b{from{transform:rotateY(68deg) rotateZ(60deg)}to{transform:rotateY(428deg) rotateZ(-300deg)}}
 @keyframes rf-ecosystem-orbit-c{from{transform:rotate3d(1,1,0,66deg) rotateZ(-60deg)}to{transform:rotate3d(1,1,0,426deg) rotateZ(300deg)}}
+@keyframes rf-ecosystem-orbit-d{from{transform:rotate3d(1,-1,0,62deg) rotateZ(25deg)}to{transform:rotate3d(1,-1,0,422deg) rotateZ(385deg)}}
+@keyframes rf-ecosystem-orbit-e{from{transform:rotate3d(0.4,1,0.7,64deg) rotateZ(-35deg)}to{transform:rotate3d(0.4,1,0.7,424deg) rotateZ(325deg)}}
+@keyframes rf-ecosystem-orbit-f{from{transform:rotate3d(1,0.35,0.7,70deg) rotateZ(80deg)}to{transform:rotate3d(1,0.35,0.7,430deg) rotateZ(440deg)}}
 @keyframes rf-ecosystem-glyph-a{to{transform:rotate(-360deg)}}
 @keyframes rf-ecosystem-glyph-b{from{transform:rotate(-60deg)}to{transform:rotate(300deg)}}
 @keyframes rf-ecosystem-glyph-c{from{transform:rotate(60deg)}to{transform:rotate(-300deg)}}
-.rf-ecosystem-loader{--rf-ecosystem-size:5.5rem;position:relative;display:inline-grid;place-items:center;width:var(--rf-ecosystem-size);height:var(--rf-ecosystem-size);color:#eaf2ff;vertical-align:middle;perspective:760px;transform-style:preserve-3d}
-.rf-ecosystem-loader__orbit{position:absolute;left:6%;top:6%;width:88%;height:88%;border:2px solid #6f9fe8c9;border-radius:50%;transform-origin:center;transform-style:preserve-3d;backface-visibility:visible;box-shadow:0 0 10px #4c8bff25, inset 0 0 8px #4c8bff12}
+@keyframes rf-ecosystem-glyph-d{from{transform:rotate(-25deg)}to{transform:rotate(-385deg)}}
+@keyframes rf-ecosystem-glyph-e{from{transform:rotate(35deg)}to{transform:rotate(-325deg)}}
+@keyframes rf-ecosystem-glyph-f{from{transform:rotate(-80deg)}to{transform:rotate(-440deg)}}
+.rf-ecosystem-loader{--rf-ecosystem-size:5.5rem;position:relative;display:inline-grid;place-items:center;width:var(--rf-ecosystem-size);height:var(--rf-ecosystem-size);color:#eaf2ff;vertical-align:middle;perspective:900px;transform-style:preserve-3d}
+.rf-ecosystem-loader__orbit{position:absolute;left:6%;top:6%;width:88%;height:88%;border:1.6px solid #6f9fe8b8;border-radius:50%;transform-origin:center;transform-style:preserve-3d;backface-visibility:visible;box-shadow:0 0 10px #4c8bff20,inset 0 0 8px #4c8bff10}
 .rf-ecosystem-loader__orbit--a{animation:rf-ecosystem-orbit-a 5.2s linear infinite}
 .rf-ecosystem-loader__orbit--b{animation:rf-ecosystem-orbit-b 6.4s linear infinite}
 .rf-ecosystem-loader__orbit--c{animation:rf-ecosystem-orbit-c 7.6s linear infinite}
+.rf-ecosystem-loader__orbit--d{animation:rf-ecosystem-orbit-d 8.8s linear infinite}
+.rf-ecosystem-loader__orbit--e{animation:rf-ecosystem-orbit-e 9.7s linear infinite}
+.rf-ecosystem-loader__orbit--f{animation:rf-ecosystem-orbit-f 11s linear infinite}
 .rf-ecosystem-loader__module{position:absolute;left:50%;top:-.72rem;transform:translateX(-50%) translateZ(12px);display:grid;place-items:center;width:1.45rem;height:1.45rem;margin:0;border:1.5px solid #a6ccff;border-radius:50%;background:radial-gradient(circle at 35% 28%,#b8e0ff,#477fe0 72%);color:#f7fbff;box-shadow:0 3px 9px #06152f99,0 0 15px #4d91ff99;backface-visibility:visible}
 .rf-ecosystem-loader__module svg{width:70%;height:70%;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
-.rf-ecosystem-loader__module--handshake svg{animation:rf-ecosystem-glyph-a 5.2s linear infinite}
-.rf-ecosystem-loader__module--announce svg{animation:rf-ecosystem-glyph-b 6.4s linear infinite}
-.rf-ecosystem-loader__module--settings svg{animation:rf-ecosystem-glyph-c 7.6s linear infinite}
+.rf-ecosystem-loader__module--brain svg{animation:rf-ecosystem-glyph-a 5.2s linear infinite}
+.rf-ecosystem-loader__module--radar svg{animation:rf-ecosystem-glyph-b 6.4s linear infinite}
+.rf-ecosystem-loader__module--network svg{animation:rf-ecosystem-glyph-c 7.6s linear infinite}
+.rf-ecosystem-loader__module--memory svg{animation:rf-ecosystem-glyph-d 8.8s linear infinite}
+.rf-ecosystem-loader__module--discovery svg{animation:rf-ecosystem-glyph-e 9.7s linear infinite}
+.rf-ecosystem-loader__module--orchestration svg{animation:rf-ecosystem-glyph-f 11s linear infinite}
 .rf-ecosystem-loader--showcase{--rf-ecosystem-size:clamp(230px,30vw,330px)}
-.rf-ecosystem-loader--showcase .rf-ecosystem-loader__orbit{border-width:2.5px;box-shadow:0 0 17px #4c8bff40}
-.rf-ecosystem-loader--showcase .rf-ecosystem-loader__module{top:-1.05rem;width:2.1rem;height:2.1rem;border-width:2px;box-shadow:0 4px 14px #06152fcc,0 0 22px #4d91ffbb}
+.rf-ecosystem-loader--showcase .rf-ecosystem-loader__orbit{border-width:2px;box-shadow:0 0 15px #4c8bff30}
+.rf-ecosystem-loader--showcase .rf-ecosystem-loader__orbit--b{left:10%;top:10%;width:80%;height:80%}
+.rf-ecosystem-loader--showcase .rf-ecosystem-loader__orbit--c{left:14%;top:14%;width:72%;height:72%}
+.rf-ecosystem-loader--showcase .rf-ecosystem-loader__orbit--d{left:18%;top:18%;width:64%;height:64%}
+.rf-ecosystem-loader--showcase .rf-ecosystem-loader__orbit--e{left:22%;top:22%;width:56%;height:56%}
+.rf-ecosystem-loader--showcase .rf-ecosystem-loader__orbit--f{left:26%;top:26%;width:48%;height:48%}
+.rf-ecosystem-loader--showcase .rf-ecosystem-loader__module{top:-.92rem;width:2rem;height:2rem;border-width:1.8px;box-shadow:0 4px 14px #06152fcc,0 0 20px #4d91ff99}
 .rf-ecosystem-loader--showcase .rf-ecosystem-loader__module svg{stroke-width:1.8}
-@media(prefers-reduced-motion:reduce){.rf-ecosystem-loader,.rf-ecosystem-loader__orbit,.rf-ecosystem-loader__module svg{animation:none!important;will-change:auto}}
+@media(prefers-reduced-motion:reduce){.rf-ecosystem-loader__orbit{animation:none!important;will-change:auto}.rf-ecosystem-loader__module svg{animation:none!important;will-change:auto}}
