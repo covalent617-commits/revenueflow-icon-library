@@ -16,9 +16,9 @@
 .rf-ecosystem-loader__orbit--c{animation:rf-ecosystem-orbit-c 7.6s linear infinite}
 .rf-ecosystem-loader__module{position:absolute;left:50%;top:-.72rem;transform:translateX(-50%) translateZ(12px);display:grid;place-items:center;width:1.45rem;height:1.45rem;margin:0;border:1.5px solid #a6ccff;border-radius:50%;background:radial-gradient(circle at 35% 28%,#b8e0ff,#477fe0 72%);color:#f7fbff;box-shadow:0 3px 9px #06152f99,0 0 15px #4d91ff99;backface-visibility:visible}
 .rf-ecosystem-loader__module svg{width:70%;height:70%;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
-.rf-ecosystem-loader__module--handshake svg{animation:rf-ecosystem-glyph-a 4.8s linear infinite}
-.rf-ecosystem-loader__module--announce svg{animation:rf-ecosystem-glyph-b 5.8s linear infinite}
-.rf-ecosystem-loader__module--settings svg{animation:rf-ecosystem-glyph-c 6.8s linear infinite}
+.rf-ecosystem-loader__module--handshake svg{animation:rf-ecosystem-glyph-a 5.2s linear infinite}
+.rf-ecosystem-loader__module--announce svg{animation:rf-ecosystem-glyph-b 6.4s linear infinite}
+.rf-ecosystem-loader__module--settings svg{animation:rf-ecosystem-glyph-c 7.6s linear infinite}
 .rf-ecosystem-loader--showcase{--rf-ecosystem-size:clamp(230px,30vw,330px)}
 .rf-ecosystem-loader--showcase .rf-ecosystem-loader__orbit{border-width:2.5px;box-shadow:0 0 17px #4c8bff40}
 .rf-ecosystem-loader--showcase .rf-ecosystem-loader__module{top:-1.05rem;width:2.1rem;height:2.1rem;border-width:2px;box-shadow:0 4px 14px #06152fcc,0 0 22px #4d91ffbb}
