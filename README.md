@@ -7,6 +7,7 @@ The central source of truth for RevenueFlow icons, motion, loading states, illus
 - `assets/manifest.json` — canonical metadata, keywords, stable IDs, source paths and approval states.
 - `assets/icons.svg` — canonical reusable SVG sprite.
 - `assets/icons/` — individually consumable SVGs generated from the sprite.
+- `assets/brand/revenueflow-mark.svg` — the same RevenueFlow mark used by the application, centred in the ecosystem loader.
 - `assets/catalogue-data.js` — generated website catalogue derived from the manifest.
 - `assets/motion.css` — reduced-motion-aware CSS references.
 - `tokens/design-tokens.json` — semantic design tokens.
