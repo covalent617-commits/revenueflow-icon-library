@@ -7,7 +7,7 @@ The central source of truth for RevenueFlow icons, motion, loading states, illus
 - `assets/manifest.json` — canonical metadata, keywords, stable IDs, source paths and approval states.
 - `assets/icons.svg` — canonical reusable SVG sprite.
 - `assets/icons/` — individually consumable SVGs generated from the sprite.
-- `assets/brand/revenueflow-mark.svg` — the same RevenueFlow mark used by the application, centred in the ecosystem loader.
+- `assets/brand/revenueflow-mark.svg` — 
 - `assets/catalogue-data.js` — generated website catalogue derived from the manifest.
 - `assets/motion.css` — reduced-motion-aware CSS references.
 - `tokens/design-tokens.json` — semantic design tokens.
@@ -38,7 +38,7 @@ Commit generated files with their source changes.
 The website remains a reference library, not proof of production integration. The main RevenueFlow application now mirrors the manifest and sprite, uses a canonical icon adapter, and has an `AGENTS.md` policy plus tests to prevent arbitrary icon substitutions. Other consuming repositories must adopt the same contract.
 
 ## Current scope
-79 icon references, 9 motion references, including the approved ecosystem synchronisation loader, and 5 illustration concepts. The manifest is the exact source of status and metadata.
+79 icon references, 9 motion references, including the approved ecosystem synchronisation loader with a dedicated large preview at the bottom of the catalogue, and 5 illustration concepts. The manifest is the exact source of status and metadata.
 
 
 ## GitHub Pages deployment
