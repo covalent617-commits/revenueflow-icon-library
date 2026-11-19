@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="RevenueFlow">
+  <title>RevenueFlow</title>
+  <desc>The RevenueFlow mark: a rising traced line — every number, traced to a real row — ending in the green of a won deal.</desc>
+  <defs>
+    <linearGradient id="rfMarkTile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d3a66"/>
+      <stop offset="0.55" stop-color="#122745"/>
+      <stop offset="1" stop-color="#0b1526"/>
+    </linearGradient>
+    <linearGradient id="rfMarkDot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4cbf85"/>
+      <stop offset="1" stop-color="#1e8a52"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="7.5" fill="url(#rfMarkTile)"/>
+  <rect x="0.7" y="0.7" width="30.6" height="30.6" rx="6.9" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1.2"/>
+  <path d="M6.2 24L12.4 16.2L17.2 18.6L25.2 8.2" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="6.2" cy="24" r="1.6" fill="#ffffff"/>
+  <circle cx="12.4" cy="16.2" r="1.6" fill="#ffffff"/>
+  <circle cx="17.2" cy="18.6" r="1.6" fill="#ffffff"/>
+  <circle cx="25.2" cy="8.2" r="2.6" fill="url(#rfMarkDot)"/>
+</svg>
