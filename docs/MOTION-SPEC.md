@@ -33,15 +33,15 @@ The exact approval state lives in `assets/manifest.json`. The website preview is
 
 ## Signature loading icon: Ecosystem synchronisation (RF-MOT-009)
 
-The loader is a compact, self-contained icon for the existing places where RevenueFlow is waiting for work to complete. It is not a splash screen, dashboard illustration, security graphic, background image or new loading page.
+The loader is a self-contained icon for the existing places where RevenueFlow is waiting for work to complete. It is not a splash screen, dashboard illustration, security graphic, background image or new loading page.
 
 Its visual grammar is deliberately simple:
-1. A central RevenueFlow mark anchors the identity.
+1. The centre remains intentionally empty so the moving module system is the focus; do not place a logo or graphic in the middle.
 2. Three thin orbital paths express connected systems working together.
 3. Three small module nodes represent ecosystem capabilities: partnership, communication and configuration.
-4. The orbits move at different, restrained speeds to communicate synchronisation without suggesting a percentage or measured completion.
+4. The orbits move at different, slightly faster speeds to communicate synchronisation without suggesting a percentage or measured completion.
 
-Use the icon at compact sizes beside existing loading/status text. Do not add dashboard panels, locks, security imagery, large background artwork or decorative containers around it. The loader must not replace useful loading text on longer operations.
+Use the icon at compact sizes beside existing loading/status text. The official visual library also provides a large, dedicated live preview at the bottom of its catalogue page for inspection. Do not add dashboard panels, locks, security imagery, large background artwork or decorative containers around it. The loader must not replace useful loading text on longer operations.
 
 ### Accessibility and runtime rules
 - Give meaningful instances an accessible name such as “RevenueFlow ecosystem synchronising”; hide decorative instances from assistive technology.
