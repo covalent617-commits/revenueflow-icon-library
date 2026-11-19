@@ -37,7 +37,7 @@ Commit generated files with their source changes.
 The website remains a reference library, not proof of production integration. The main RevenueFlow application now mirrors the manifest and sprite, uses a canonical icon adapter, and has an `AGENTS.md` policy plus tests to prevent arbitrary icon substitutions. Other consuming repositories must adopt the same contract.
 
 ## Current scope
-79 icon references, 9 motion references with mixed approval states, and 5 illustration concepts. The manifest is the exact source of status and metadata.
+79 icon references, 9 motion references, including the approved ecosystem synchronisation loader, and 5 illustration concepts. The manifest is the exact source of status and metadata.
 
 
 ## GitHub Pages deployment
